@@ -1,0 +1,2229 @@
+main {
+    width: 100%;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.island-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 130vh; 
+    background: #AD7F33;
+}
+
+.island-day__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.island-day__images-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 75%;
+    margin-left: -25px;
+}
+
+.island-day__images-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    background: #c49851;
+    transition: all ease-in-out .2s;
+}
+
+.island-day__images-btn a:hover {
+    background: #d5a65b;
+}
+
+.two-lists-and-value {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-left: -30px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.lists-one {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+    width: 100%;
+    margin-top: 45px;
+}
+
+.lists-two {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(
+        250px,
+        1fr
+    ));
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: start;
+    justify-items: baseline;
+    gap: 5px;
+}
+
+.two-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.two-two-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.lists-one li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 10px;
+    list-style: none;
+}
+
+.lists-two .two-container li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    gap: 10px;
+    list-style: none;
+}
+
+.lists-two .two-two-container li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    gap: 10px;
+    list-style: none;
+}
+
+.last-list {
+    margin-top: 20px;
+}
+
+.lists-one li img {
+    width: 85px;
+}
+
+.lists-two li img {
+    width: 85px;
+}
+
+.invert-color {
+    filter: grayscale(100%) brightness(0) invert(100%);
+}
+
+.title-island-day {
+    width: 350px;
+    margin-left: -180px;
+    margin-top: 35px;
+    margin-bottom: -40px;
+    z-index: 2;
+}
+
+.last-list {
+    margin-top: 20px;
+}
+
+.fotos-line-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.fotos-line-img img:nth-child(1) {
+    width: 750px;
+    height: auto;
+    margin-left: 0;
+}
+
+.fotos-line-img img:nth-child(2) {
+    height: 545px;
+    margin-left: 0;
+}
+
+.island-day__price-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
+
+.waves {
+    top: 15px;
+    right: 60px;
+    position: absolute;
+}
+
+
+/*
+SECTION PRIVATE BOAT SERVICES
+*/
+
+.private-boat-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 120vh;
+}
+
+.private-boat-services__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-private-boat-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.letter-private-boat {
+    width: 450px;
+    height: auto;
+    margin-bottom: -30px;
+    margin-top: -10px;
+}
+
+.img-private-boat-services__img-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0;
+    width: 100%;
+}
+
+.img-boat-private {
+    width: 850px;
+    margin-top: -120px;
+}
+
+.img-line-private-boat-services {
+    height: 550px;
+}
+
+
+.letters-and-btn-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    height: 100%;
+}
+
+.letters-and-btn-booking__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 68%;
+    height: 75%;
+}
+
+.letters-and-btn-booking__container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #AD7F33;
+}
+
+.change-color-letters {
+    color: #ffaf2f;
+}
+
+.letters-lists-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letters-lists-services li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 2px;
+}
+
+.letters-lists-services li img {
+    width: 80px;
+}
+
+.letters-lists-services li span {
+    color: #AD7F33;
+}
+
+.letters-lists-services-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    background: #AD7F33;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/*
+SECTION PRIVATE BOAT SERVICES END
+*/
+
+
+/*
+RENT A BOAT
+*/
+
+
+.rent-a-boat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 125vh;
+}
+
+.rent-a-boat__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: -80px;
+}
+
+.img-rent-a-boat-title-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 57%;
+}
+
+.letters-rent-a-boat-lists-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.letters-rent-a-boat-lists-btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.letters-rent-a-boat-lists-btn__container p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #AD7F33;
+    font-weight: 600;
+}
+
+.datetime-number-persons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.datetime-number-persons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    width: 170px;
+    height: 30px;
+    border-radius: 14px;
+    background: #00A19A;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.datetime-number-persons button span {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.letters-lists-rent-a-boat-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    height: 45px;
+    background: #AD7F33;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.carrousel-three-boats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+
+.carrousel-three-boats__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    margin: 0 10px;
+    width: calc(100% / 3); /* Ajusta según la cantidad de elementos */
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    opacity: 0.7;
+    filter: blur(2px);
+    transition: opacity 0.5s, filter 0.5s;
+  }
+  
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item.current {
+    opacity: 1;
+    filter: none;
+}
+
+#previous {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: calc(100% / 2);
+    left: calc(100% / 4);
+    cursor: pointer;
+}
+
+#previous svg {
+    width: 45px;
+    color: #AD7F33;
+}
+
+#next {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: calc(100% / 2);
+    right: calc(100% / 4);
+    cursor: pointer;
+}
+
+#next svg {
+    width: 45px;
+    color: #AD7F33;
+}
+
+.datetime-number-persons__btn-date {
+    position: relative;
+}
+
+.datetime-number-persons__btnnumber {
+    position: relative;
+}
+
+.container-input-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    height: 100px;
+    background: white;
+    padding: 2px;
+    border: 1px solid rgb(178, 176, 176);
+    border-radius: 10px;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 0;
+    z-index: 600;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.container-input-persons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    height: 100px;
+    background: white;
+    padding: 2px;
+    border: 1px solid rgb(178, 176, 176);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 600;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.container-input-persons input {
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #AD7F33;
+    border-radius: 8px;
+    outline: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-input-date input {
+    width: 90%;
+    height: 25px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #AD7F33;
+    border-radius: 8px;
+    outline: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#container-date__close {
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #AD7F33;
+}
+
+#container-persons__close {
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #AD7F33;
+}
+
+.letter-rent-a-boat {
+    width: 320px;
+}
+
+.img-rent-a-boat__img-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.img-rent-a-boat {
+    width: 100%;
+}
+
+.img-line-reant-a-boat {
+    height: 555px;
+}
+
+.lancha-rapida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lancha-rapida__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    color: #AD7F33;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+RENT A BOAT END
+*/
+
+
+
+/*
+FIRST FORM (20 PAX)
+*/
+
+.form-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-booking img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.form-booking__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 570px;
+    height: 80vh;
+    background: rgb(173, 126, 51, 0.7);
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+}
+
+.form-booking__container__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-booking__container__content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    width: 85%;
+}
+
+.form-booking__container__content span {
+    text-transform: uppercase;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-booking__container__content form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    width: 80%;
+    height: 450px;
+    margin-top: -100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-booking__container__content form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b9965e;
+    color: white;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    cursor: pointer;
+}
+
+.form-booking__container__content form button:hover {
+    background: #dca54b;
+}
+
+.form-booking__container__content input {
+    width: 100%;
+    height: 45px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-booking__container__content input::placeholder {
+    padding: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c39955;
+}
+
+/*
+FIRST FORM (20 PAX) END
+*/
+
+
+
+/*
+NEW PAGE - COMIDAS Y BEBIDAS
+*/
+
+.title-one-foods {
+    top: calc(100% / 2.3);
+    right: calc(100% / 7);
+    color: white;
+}
+
+.title-one-foods h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-bottom: -30px;
+}
+
+.title-one-foods span {
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 65px;
+}
+
+.title-two-food-paue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    top: calc(100% / 2.3);
+    right: calc(100% / 2);
+    color: white;
+}
+
+.header-carrousel__item .menu-paue-foods {
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    background: rgba(202, 202, 202, 0.4);
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 70px;
+    right: 120px;
+    cursor: pointer;
+}
+
+.header-carrousel__item .menu-paue-foods:hover {
+    background: #AD7F33;
+    color: white;
+}
+
+.title-two-food-paue h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 75px;
+}
+
+.title-two-food-paue span {
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 65px;
+}
+
+.title-one-foods button {
+    width: 120px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: white;
+    color: #00A19A;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.title-one-foods button {
+    position: absolute;
+    top: 120px;
+    z-index: 1;
+}
+
+.title-one-foods button:hover {
+    background: #AD7F33;
+    color: white;
+}
+
+.booking-with-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.booking-with-us__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.booking-with-us__content-title {
+    position: absolute;
+    top: calc(100% / 2.4);
+    left: calc(100% / 11.5);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.booking-with-us__content-title h2 {
+    font-size: 85px;
+    margin: 0;
+    margin-bottom: -30px;
+}
+
+.booking-with-us__content-title span {
+    font-size: 50px;
+    margin-left: 85px;
+}
+
+.booking-with-us__container img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*
+NEW PAGE - COMIDAS Y BEBIDAS END
+*/
+
+
+/*
+NEW ISLAND DAY
+*/
+
+.new-island-day, .new-island-day__container, .island-day__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.island-day__content {
+    flex-direction: column;
+}
+
+.new-island-day {
+    height: auto;
+    background: #AD7F33;
+    color: white;
+}
+
+.new-island-day__container {
+    flex-direction: column;
+}
+
+.content-text-lists-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.island-day__content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    margin-top: -18px;
+}
+
+.island-day__content__container img {
+    width: 300px;
+}
+
+.value-price__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.value-price__text h2 {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.value-price__text p {
+    font-size: 22px;
+    font-weight: 600;    
+    padding: 0;
+    margin: 12px 0 0 0;
+}
+
+.island-day__content__container__lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 35px;
+}
+
+.firts-lists-omne-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 58px;
+    margin-bottom: -20px;
+}
+
+.firts-lists-omne-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.firts-lists-omne-list li img {
+    width: 80px;
+}
+
+.firts-lists-omne-list li span {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+.seconds-lists-two-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(
+        250px,
+        1fr
+    ));
+    width: 100%;
+}
+
+.seconds-lists-two-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.seconds-lists-two-list li img {
+    width: 80px;
+}
+
+.seconds-lists-two-list li span {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.three-lists-three-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+}
+
+.three-lists-three-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.three-lists-three-list li img {
+    width: 80px;
+}
+
+.three-lists-three-list li span {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.new-island-day-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.new-island-day-btn button {
+    width: 200px;
+    height: 35px;
+    background: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #AD7F33;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.para-tener-en-cuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.para-tener-en-cuenta__container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.para-tener-en-cuenta__container h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-top: -8px;
+    margin-right: 60px;
+}
+
+
+.new-island-day-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.new-island-day-img__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+    margin: 0;
+    padding: 0;
+}
+
+.new-island-day-img__container img {
+    width: 95%;
+    height: 95%;
+    margin-top: 1px;
+    margin-right: -60px;
+}
+
+.waves-new-island-day {
+    position: absolute;
+    top: 180px;
+    left: -50px;
+}
+
+.waves-new-island-day img {
+    width: 200px;
+}
+
+.information-about-island {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    margin-top: -72px;
+}
+
+.information-about-island__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    background: white;
+}
+
+.information-about-island__container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #AD7F33;
+    font-weight: 600
+}
+
+.information-about-island__container ul li span {
+    color: #00A19A;
+}
+
+.information-about-island__container ul li img {
+    width: 120px;
+}
+
+.list-img-wave {
+    list-style: none;
+    margin: -30px 0 -30px 0;
+    padding: 0;
+}
+
+/*
+NOT INCLUDE SECTION
+*/
+
+.not-include {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.not-include__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.item-text__img-line, .not-include-contents-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.item-text__img-line__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not-include__container__item-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.not-include__container__item-text p {
+    margin: 3px;
+}
+
+.not-include__container__item-img-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.not-include__container__item-img-line img {
+    width: 350px;
+}
+
+.not-include-contents-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.not-include-contents-text__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.not-include-contents-text__container h3 {
+    text-transform: uppercase;
+    font-size: 32px;
+    width: 270px;
+    transform: rotate(-90deg);
+    margin-right: -100px;
+    margin-top: 20px;
+}
+
+.text-content-not-include {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: white;
+    color: #AD7F33;
+}
+
+.text-content-not-include__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-content-not-include__container h4 {
+    color: #00A19A;
+}
+
+.content-ul-lists-not-include {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-ul-lists-not-include__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.content-ul-lists-not-include__container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-ul-lists-not-include__container ul li {
+    font-weight: 600;
+    list-style: none;
+}
+
+
+
+/*
+CONFIRM BOOKING
+*/
+
+.confirm-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.confirm-booking__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.CB-up, .CB-up__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.CB-up__container img {
+    width: 100%;
+}
+
+.CB-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    margin-top: -35px;
+}
+
+.CB-form__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.CB-form__container img {
+    width: 450px;
+}
+
+.CB-form__container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.CB-form__container form button {
+    width: 180px;
+    height: 35px;
+    background: #AD7F33;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.form-container-two-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    gap: 10px;
+}
+
+.form-container-two-inputs input {
+    width: 50%;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #AD7F33;
+}
+
+.form-container-two-inputs input::placeholder {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #AD7F33;
+}
+
+.form-container-one-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form-container-one-inputs textarea {
+    width: 89%;
+    border: 1px solid #AD7F33;
+    padding: 5px;
+}
+
+.form-container-one-inputs textarea::placeholder {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #AD7F33;
+}
+
+/*
+VALORA TU RESERVA SECTION
+*/
+
+.val-your-reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('../img/bookings/Fondo\ Valora\ tu\ reserva.png');
+    background-size: cover;
+    background-attachment: inherit;
+    background-position: center top -40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.val-your-reservation__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.val-your-reservation__container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.val-your-reservation__content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+.val {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.val__container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 95%;
+    padding: 65px 0 10px 10px;
+}
+
+.title__stars {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    color: #AD7F33;
+    width: 100%;
+    gap: 10px;
+}
+
+.val__container__title {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.val__container__title h2 {
+    text-transform: uppercase;
+    font-size: 33px;
+    margin: 0 0 -12px 0;
+    padding: 0;
+}
+
+.val__container__title h3 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.val__container__stars {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+}
+
+.val__container__stars__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.val__container__stars__container svg {
+    color: #AD7F33;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    color: white;
+}
+
+.description__container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 95%;
+}
+
+.description__container p {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.form-val-your-reservation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.form-val-your-reservation form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.form-your-reservation-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+
+.form-val-your-reservation form input {
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255, .5);
+    padding: 5px;
+}
+
+.form-val-your-reservation form input::placeholder {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.form-your-reservation-textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.form-your-reservation-textarea textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255, .5);
+}
+
+.form-your-reservation-textarea textarea::placeholder {
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.form-val-your-reservation form button {
+    width: 200px;
+    height: 40px;
+    background: #AD7F33;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+/*
+PREGUNTAS FRECUENTES
+*/
+
+.faqs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/faqs/Fotografía.png');
+    background-size: cover;
+    background-attachment: inherit;
+    background-position: center top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.faqs__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title-faqs {
+    width: 90%;
+    margin-top: -80px;
+    color: white;
+}
+
+.title-faqs h2 {
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-bottom: -45px;
+}
+
+.title-faqs h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 980px) {
+
+    .private-boat-services {
+        height: 90vh;
+    }
+
+    .title-one {
+        top: 90px;
+    }
+
+    .title-three {
+        top: calc(100% / 4);
+        right: calc(100% / 6);
+    }
+
+    .title-four {
+        top: 65px;
+    }
+
+    .island-day {
+        height: 110vh;
+    }
+
+    .island-day__images-btn {
+        width: 24%;
+        margin-left: 47px;
+    }
+
+    .island-day__container {
+        margin-top: -133px;
+    }
+
+    .img-line-reant-a-boat {
+        height: 390px;
+    }
+
+    .img-line-private-boat-services {
+        height: 390px;
+    }
+
+    .island-day__images-btn a {
+        margin-left: 180px;
+    }
+
+    .title-island-day {
+        margin-bottom: -40px;
+        margin-left: 121px;
+    }
+
+    .two-lists-and-value {
+        width: 36%;
+        margin-top: 70px;
+    }
+
+    .fotos-line-img img:nth-child(1) {
+        width: 541px;
+        height: auto;
+        margin-left: 216px;
+    }
+
+    .fotos-line-img img:nth-child(2) {
+        height: 390px;
+    }
+
+    .lists-two {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax( 150px, 1fr ));
+    }
+
+    .lists-two .two-two-container li {
+        font-size: 12px;
+    }
+
+    .waves {
+        right: -175px;
+    }
+
+    .waves img {
+        width: 50%;
+    }
+
+    .lists-one {
+        gap: 0;
+    }
+
+    .letters-lists-services {
+        padding: 0;
+    }
+
+    .lists-one li {
+        font-size: 12px;
+    }
+
+    .lists-one li img {
+        width: 75px;
+    }
+
+    .lists-two li img {
+        width: 75px;
+    }
+
+    .lists-two {
+        gap: 0;
+    }
+
+    .two-container li, .two-two-container li {
+        font-size: 12px;
+    }
+
+    .lists-two .two-container li {
+        font-size: 12px;
+    }
+
+    .rent-a-boat {
+        height: 90vh;
+    }
+
+    /*
+    PRIVATE SERVICES BOATS
+    */
+
+    .img-private-boat-services {
+        width: 24%;
+    }
+
+    .letter-private-boat {
+        margin-left: 312px;
+    }
+
+    .letters-and-btn-booking {
+        width: 42%;
+    }
+
+    .letters-and-btn-booking__container {
+        width: 100%;
+    }
+
+    /*
+    RENT A BOAT
+    */
+
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 12px;
+    }
+
+    /*
+    FORM SECTION
+    */
+
+    .form-booking__container__content h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .form-booking__container__content span {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+  }
+
+  @media screen and (max-width: 870px) {
+
+    .two-lists-and-value {
+        width: 40%;
+    }
+    .island-day__images-btn {
+        width: 10%;
+    }
+
+    .title-island-day {
+        margin-left: 239px;
+    }
+
+    .island-day__images-btn a {
+        margin-left: 277px;
+    }
+
+    .img-private-boat-services {
+        width: 10%;
+    }
+
+    .letter-private-boat {
+        margin-left: 391px;
+        margin-bottom: 20px
+    }
+
+    .img-rent-a-boat-title-img {
+        width: 54.5%;
+    }
+
+    .img-line-reant-a-boat {
+        height: 340px;
+    }
+
+    .letters-rent-a-boat-lists-btn__container {
+        margin-top: 80px;
+    }
+
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 13px;
+        margin-bottom: -50px;
+    }
+
+    .carrousel-boats-and-booking {
+        margin-top: 20px;
+    }
+
+    .letters-rent-a-boat-lists-btn {
+        width: 44%;
+    }
+
+    .img-boat-private {
+        width: 850px;
+        margin-top: -58px;
+        margin-left: 141px;
+    }
+
+    .img-line-private-boat-services {
+        height: 390px;
+        margin-left: -142px;
+    }
+
+    .letters-and-btn-booking {
+        width: 42%;
+        margin-top: 96px;
+    }
+
+    .letters-and-btn-booking__container {
+        width: 90%;
+    }
+
+    .letters-and-btn-booking__container {
+        justify-content: center;
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 590px) {
+
+    .menu-header.menu-open {
+        width: 60%;
+        z-index: 999;
+    }
+
+    .waves {
+        right: -246px;
+    }
+
+    .waves img {
+        width: 32%;
+    }
+    .title-one {
+        top: 120px;
+    }
+
+    .title-one {
+        right: calc(100% / 5);
+        font-size: 37px;
+    }
+
+    .title-one h2 {
+        font-size: 55px;
+        margin: 0;
+        margin-bottom: -28px;
+    }
+
+    .title-one span:nth-child(3) {
+        font-size: 55px;
+    }
+
+    .title-two h2 {
+        font-size: 55px;
+        margin: 0;
+        margin-left: -124px;
+    }
+
+    .title-two span {
+        font-size: 55px;
+        font-weight: 600;
+        margin-right: -98px;
+        margin-top: -20px;
+    }
+
+    .title-three {
+        top: calc(100% / 3.3);
+        right: calc(100% / 50);
+    }
+
+    .title-three h2 {
+        font-size: 61px;
+        margin: 0;
+        margin-bottom: -25px;
+    }
+
+    .title-three span {
+        color: #AD7F33;
+        margin-right: -100px;
+        font-weight: 800;
+    }
+
+    .title-four {
+        top: 118px;
+    }
+
+    .island-day {
+        height: 197vh;
+    }
+
+    .island-day__images-btn {
+        width: 100%;
+        margin: 0;
+        margin-top: 70px;
+    }
+
+    .title-island-day {
+        margin: 0;
+        margin-bottom: -36px;
+    }
+
+    .fotos-line-img img:nth-child(1) {
+        width: 420px;
+        height: auto;
+        margin: 0;
+    }
+
+    .fotos-line-img img:nth-child(2) {
+        height: 303px;
+    }
+
+    .island-day__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .two-lists-and-value {
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .island-day__images-btn a {
+        margin-left: 0;
+    }
+
+    .lists-one {
+        margin-top: 0;
+    }
+
+
+    .private-boat-services {
+        height: auto;
+    }
+
+    .private-boat-services__container {
+        flex-direction: column;
+    }
+
+    .img-private-boat-services {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .letter-private-boat {
+        width: 380px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .img-boat-private {
+        width: 100%;
+        margin-top: 0;
+        margin-left: -53px;
+    }
+
+    .img-line-private-boat-services {
+        height: 261px;
+        margin-left: 39px;
+    }
+
+    .letters-and-btn-booking {
+        width: 100%;
+        margin-top: 96px;
+    }
+
+    .letters-and-btn-booking__container {
+        justify-content: center;
+        width: 90%;
+    }
+
+    .letters-lists-services li img {
+        width: 60px;
+    }
+
+    .rent-a-boat {
+        height: auto;
+    }
+
+    .letters-lists-services {
+        font-size: 13px;
+    }
+
+    .rent-a-boat__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .img-rent-a-boat {
+        width: 97%;
+    }
+
+    .img-rent-a-boat-title-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .img-line-reant-a-boat {
+        height: 300px;
+    }
+
+    .letters-rent-a-boat-lists-btn {
+        width: 100%;
+    }
+
+    .letters-rent-a-boat-lists-btn__container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .letters-rent-a-boat-lists-btn__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        gap: 50px;
+    }
+
+    .form-booking__container {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        padding: 0;
+    }
+
+    .form-booking__container__content {
+        width: 95%;
+    }
+
+    .form-booking__container__content form {
+        width: 95%;
+    }
+
+    .title-two-food-paue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+        top: calc(100% / 2.1);
+        right: 30px;
+        color: white;
+    }
+
+    .title-two-food-paue h2 {
+        font-size: 52px;
+    }
+
+    .title-two-food-paue span {
+        font-size: 50px;
+    }
+
+    .header-carrousel__item .menu-paue-foods {
+        bottom: 142px;
+        right: 38px;
+    }
+
+    .title-one-foods {
+        top: calc(100% / 2.3);
+        right: calc(100% / 7);
+        color: white;
+    }
+
+    .title-one-foods button {
+        position: absolute;
+        top: 120px;
+        z-index: 1;
+    }
+
+  }
