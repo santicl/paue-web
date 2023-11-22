@@ -2045,13 +2045,13 @@ PREGUNTAS FRECUENTES
     }
 
     .fotos-line-img img:nth-child(1) {
-        width: 410px;
+        width: 96%;
         height: auto;
         margin: 0;
     }
 
     .fotos-line-img img:nth-child(2) {
-        height: 303px;
+        height: 256px;
     }
 
     .island-day__container {
