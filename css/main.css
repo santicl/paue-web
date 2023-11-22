@@ -1806,10 +1806,6 @@ PREGUNTAS FRECUENTES
         font-size: 12px;
     }
 
-    .waves {
-        right: -175px;
-    }
-
     .waves img {
         width: 50%;
     }
@@ -1975,10 +1971,6 @@ PREGUNTAS FRECUENTES
     .menu-header.menu-open {
         width: 60%;
         z-index: 999;
-    }
-
-    .waves {
-        right: -246px;
     }
 
     .waves img {
