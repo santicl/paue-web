@@ -2037,7 +2037,7 @@ PREGUNTAS FRECUENTES
     .title-two h2 {
         font-size: 41px;
         margin: 0;
-        margin-bottom: 6px;
+        margin-bottom: 9px;
         margin-left: -124px;
     }
 
@@ -2063,12 +2063,12 @@ PREGUNTAS FRECUENTES
     .title-three span {
         font-size: 41px;
         color: #AD7F33;
-        margin-right: -100px;
+        margin-left: 47px;
         font-weight: 100;
     }
 
     .title-four {
-        top: 118px;
+        top: 125px;
     }
 
     .title-four h2 {
