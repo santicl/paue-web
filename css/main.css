@@ -2503,6 +2503,11 @@ PREGUNTAS FRECUENTES
         font-size: 12px;
     }
 
+    .new-island-day-img__container {
+        justify-content: end;
+        margin: 0 -41px 0 0;
+    }
+
   }
 
   @media screen and (max-width: 450px) {
@@ -2532,6 +2537,6 @@ PREGUNTAS FRECUENTES
 
     .new-island-day-img__container {
         justify-content: end;
-        margin: 0 -39px 0 0;
+        margin: 0 -35px 0 0;
     }
   }
