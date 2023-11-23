@@ -1814,18 +1814,23 @@ summary {
     justify-content: start;
     align-items: center;
     flex-direction: row;
+    cursor: pointer;
     width: 100%;
     font-size: 24px;
     list-style-type: none;
   }
 
-
+  details {
+    width: 100%;
+  }
 
 .paragraph-detail {
     display: flex;
     justify-content: end;
     align-items: center;
     width: 100%;
+    border-top: 1px solid #00A19A;
+    border-bottom: 1px solid #00A19A;
 }
 
 .paragraph-detail__container {
@@ -1834,6 +1839,16 @@ summary {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    font-size: 20px;
+}
+
+.paragraph-detail__container h3 {
+    color: #00A19A;
+    font-size: 28px;
+}
+
+.paragraph-detail__container p {
+    font-size: 18px;
 }
 
 .paragraph-detail__detail {
@@ -1841,6 +1856,12 @@ summary {
     justify-content: start;
     align-items: center;
     flex-direction: column;
+    width: 95%;
+    padding: 10px;
+}
+
+.paragraph-detail__container p {
+    margin-left: 10px;
 }
 
 
@@ -2634,5 +2655,17 @@ summary {
 
     .title-faqs h3 {
         margin-left: 2px;
+    }
+
+    .questions__container__question__container img {
+        width: 270px;
+    }
+
+    summary {
+        font-size: 16px;
+    }
+
+    .paragraph-detail__container {
+        font-size: 17px;
     }
   }
