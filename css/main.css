@@ -2666,6 +2666,18 @@ summary {
     }
 
     .paragraph-detail__container {
-        font-size: 17px;
+        font-size: 14px;
+    }
+
+    .paragraph-detail__container p {
+        font-size: 14px;
+    }
+
+    .paragraph-detail__container h3 {
+        font-size: 21px;
+    }
+
+    .paragraph-detail__detail ul {
+        width: 100%;
     }
   }
