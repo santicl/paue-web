@@ -2514,4 +2514,12 @@ PREGUNTAS FRECUENTES
     .title-one {
         right: calc(100% / 9.2);
     }
+
+    .form-container-two-inputs {
+        flex-direction: column;
+    }
+
+    .form-container-two-inputs input {
+        width: 100%;
+    }
   }
