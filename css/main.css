@@ -309,7 +309,7 @@ SECTION PRIVATE BOAT SERVICES
 
 .change-color-letters {
     color: #ffaf2f;
-    margin-top: -30px;
+    margin-top: 0;
 }
 
 .letters-lists-services {
@@ -333,6 +333,7 @@ SECTION PRIVATE BOAT SERVICES
 }
 
 .letters-lists-services li span {
+    font-size: 20px;
     color: #AD7F33;
 }
 
