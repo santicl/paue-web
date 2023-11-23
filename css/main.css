@@ -865,7 +865,8 @@ NEW PAGE - COMIDAS Y BEBIDAS
     border-radius: 20px;
     color: white;
     background: rgba(202, 202, 202, 0.4);
-    font-weight: 800;
+    font-weight: 100;
+    font-family: 'The Dodger Inky Regular', serif;
     text-transform: uppercase;
     position: absolute;
     bottom: 70px;
@@ -2450,22 +2451,25 @@ GALERIA
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         gap: 40px;
         top: calc(100% / 2.1);
-        right: 30px;
+        right: 26px;
         color: white;
     }
 
     .title-two-food-paue h2 {
-        font-size: 52px;
+        font-size: 60px;
+        margin-bottom: -51px;
     }
 
     .title-two-food-paue span {
         font-size: 50px;
+        margin-left: -158px;
     }
 
     .header-carrousel__item .menu-paue-foods {
+        font-size: 28px;
         bottom: 142px;
         right: 38px;
     }
