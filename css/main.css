@@ -2025,47 +2025,59 @@ PREGUNTAS FRECUENTES
     }
 
     .title-one h2 {
-        font-size: 55px;
+        font-size: 41px;
         margin: 0;
-        margin-bottom: -28px;
+        margin-bottom: -13px;
     }
 
     .title-one span:nth-child(3) {
-        font-size: 55px;
+        font-size: 41px;
     }
 
     .title-two h2 {
-        font-size: 55px;
+        font-size: 41px;
         margin: 0;
+        margin-bottom: 6px;
         margin-left: -124px;
     }
 
     .title-two span {
-        font-size: 55px;
+        font-size: 41px;
         font-weight: 600;
         margin-right: -98px;
         margin-top: -20px;
     }
 
     .title-three {
-        top: calc(100% / 3);
-        right: calc(100% / 50);
+        top: calc(100% / 2.7);
+        right: calc(100% / 82);
     }
 
     .title-three h2 {
-        font-size: 61px;
+        font-size: 41px;
         margin: 0;
-        margin-bottom: -25px;
+        margin-bottom: -14px;
+        font-weight: 100;
     }
 
     .title-three span {
+        font-size: 41px;
         color: #AD7F33;
         margin-right: -100px;
-        font-weight: 800;
+        font-weight: 100;
     }
 
     .title-four {
         top: 118px;
+    }
+
+    .title-four h2 {
+        font-size: 41px;
+        margin-bottom: -14px;
+    }
+
+    .title-four span {
+        font-size: 41px;
     }
 
     .island-day {
@@ -2516,6 +2528,7 @@ PREGUNTAS FRECUENTES
     }
 
     .title-one {
+        font-size: 20px;
         right: calc(100% / 9.2);
     }
 
