@@ -1772,6 +1772,78 @@ PREGUNTAS FRECUENTES
     margin-left: 10px;
 }
 
+.questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #AD7F33;
+    color: white;
+    width: 100%;
+}
+
+.questions__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.questions__container__question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.questions__container__question__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.questions__container__question__container img {
+    width: 350px;
+    margin-left: -219px;
+}
+
+summary {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    font-size: 24px;
+    list-style-type: none;
+  }
+
+
+
+.paragraph-detail {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.paragraph-detail__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.paragraph-detail__detail {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 @media screen and (max-width: 980px) {
 
     .private-boat-services {
@@ -2553,5 +2625,14 @@ PREGUNTAS FRECUENTES
     .new-island-day-img__container {
         justify-content: end;
         margin: 0 -28px 0 0;
+    }
+
+    .title-faqs h2 {
+        font-size: 41px;
+        margin-bottom: -38px;
+    }
+
+    .title-faqs h3 {
+        margin-left: 2px;
     }
   }
