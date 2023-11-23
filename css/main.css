@@ -2522,4 +2522,8 @@ PREGUNTAS FRECUENTES
     .form-container-two-inputs input {
         width: 100%;
     }
+
+    .CB-form__container {
+        margin-top: 46px;
+    }
   }
