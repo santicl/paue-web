@@ -55,7 +55,6 @@ main {
     outline: none;
     color: white;
     font-size: 38px;
-    padding-top: 18px;
     font-weight: 500;
     text-decoration: none;
     background: #c49851;
@@ -302,7 +301,7 @@ SECTION PRIVATE BOAT SERVICES
     text-align: center;
     flex-direction: column;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 100;
     text-transform: uppercase;
     color: #AD7F33;
 }
@@ -347,7 +346,7 @@ SECTION PRIVATE BOAT SERVICES
     color: white;
     font-size: 33px;
     padding-top: 12px;
-    font-weight: 600;
+    font-weight: 100;
     border-radius: 25px;
     text-decoration: none;
 }
@@ -451,7 +450,7 @@ RENT A BOAT
 }
 
 .datetime-number-persons button span {
-    margin-top: -1px;
+    margin-top: 0;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -468,7 +467,7 @@ RENT A BOAT
     color: white;
     font-size: 34px;
     padding: 17px 0 0 0;
-    font-weight: 600;
+    font-weight: 100;
     border-radius: 22px;
     border: none;
     cursor: pointer;
@@ -779,7 +778,7 @@ FIRST FORM (20 PAX)
     border-radius: 20px;
     font-size: 34px;
     padding: 15px 0 0 0;
-    font-weight: 600;
+    font-weight: 100;
     border: none;
     outline: none;
     text-transform: uppercase;
