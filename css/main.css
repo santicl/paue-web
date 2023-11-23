@@ -894,8 +894,9 @@ NEW PAGE - COMIDAS Y BEBIDAS
 .title-one-foods button {
     width: 120px;
     height: 35px;
+    font-family: 'The Dodger Inky Regular', serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 100;
     background: white;
     color: #00A19A;
     border: none;
@@ -905,6 +906,7 @@ NEW PAGE - COMIDAS Y BEBIDAS
 }
 
 .title-one-foods button {
+    font-size: 28px;
     position: absolute;
     top: 120px;
     z-index: 1;
@@ -2470,7 +2472,7 @@ GALERIA
 
     .title-one-foods {
         top: calc(100% / 2.3);
-        right: calc(100% / 7);
+        right: calc(100% / 15);
         color: white;
     }
 
@@ -2809,5 +2811,9 @@ GALERIA
     display: block;
     width: 100%;
     margin-bottom: 10px;
+  }
+
+  .title-one-foods h2 {
+    margin-bottom: -15px;
   }
   }
