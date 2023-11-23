@@ -943,7 +943,6 @@ NEW PAGE - COMIDAS Y BEBIDAS
     color: white;
     font-family: 'The Dodger Inky Regular', serif;
     text-transform: uppercase;
-    z-index: 2;
 }
 
 .booking-with-us__content-title h2 {
@@ -1456,6 +1455,8 @@ CONFIRM BOOKING
     flex-direction: column;
     gap: 10px;
     width: 100%;
+    font-family: 'Amarillis', serif;
+    font-weight: 100;
 }
 
 .CB-form__container form button {
@@ -1463,7 +1464,9 @@ CONFIRM BOOKING
     height: 35px;
     background: #AD7F33;
     text-transform: uppercase;
-    font-weight: 600;
+    font-size: 30px;
+    font-family: 'The Dodger Inky Regular', sans-serif;
+    font-weight: 100;
     color: white;
     margin-top: 20px;
     border: none;
@@ -1488,7 +1491,9 @@ CONFIRM BOOKING
 }
 
 .form-container-two-inputs input::placeholder {
-    font-weight: 600;
+    font-size: 18px;
+    font-family: 'The Dodger Inky Regular', sans-serif;
+    font-weight: 100;
     text-transform: uppercase;
     color: #AD7F33;
 }
@@ -1507,8 +1512,9 @@ CONFIRM BOOKING
 }
 
 .form-container-one-inputs textarea::placeholder {
-    font-size: 15px;
-    font-weight: 600;
+    font-family: 'The Dodger Inky Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
     text-transform: uppercase;
     color: #AD7F33;
 }
