@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'Amarillis';
+    src: url('../fonts/amarillis.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'The Dodger Inky Regular';
+    src: url('../fonts/the-dodger-inky-regular.ttf') format('truetype');
+}
+
 main {
     width: 100%;
     height: auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .island-day {
@@ -44,7 +54,8 @@ main {
     border-radius: 30px;
     outline: none;
     color: white;
-    font-size: 18px;
+    font-size: 38px;
+    padding-top: 18px;
     font-weight: 500;
     text-decoration: none;
     background: #c49851;
@@ -114,8 +125,8 @@ main {
     align-items: center;
     flex-direction: row;
     color: white;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: 'The Dodger Inky Regular', serif;
     gap: 10px;
     list-style: none;
 }
@@ -125,8 +136,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: 'The Dodger Inky Regular', serif;
     color: white;
     gap: 10px;
     list-style: none;
@@ -137,8 +148,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-family: 'The Dodger Inky Regular', serif;
     color: white;
     gap: 10px;
     list-style: none;
@@ -198,8 +209,8 @@ main {
     align-items: center;
     width: 100%;
     color: white;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 49px;
+    font-weight: 100;
     margin-top: 60px;
     margin-bottom: -30px;
 }
@@ -290,7 +301,7 @@ SECTION PRIVATE BOAT SERVICES
     align-items: center;
     text-align: center;
     flex-direction: column;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
     color: #AD7F33;
@@ -298,6 +309,7 @@ SECTION PRIVATE BOAT SERVICES
 
 .change-color-letters {
     color: #ffaf2f;
+    margin-top: -30px;
 }
 
 .letters-lists-services {
@@ -332,7 +344,8 @@ SECTION PRIVATE BOAT SERVICES
     height: 45px;
     background: #AD7F33;
     color: white;
-    font-size: 22px;
+    font-size: 33px;
+    padding-top: 12px;
     font-weight: 600;
     border-radius: 25px;
     text-decoration: none;
@@ -395,8 +408,9 @@ RENT A BOAT
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 95%;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 19px;
     color: #AD7F33;
     font-weight: 600;
 }
@@ -408,15 +422,20 @@ RENT A BOAT
     flex-direction: row;
     gap: 20px;
     width: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
+    font-size: 18px;
 }
 
 .datetime-number-persons button {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    line-height: normal;
     flex-direction: row;
-    gap: 15px;
+    vertical-align: middle;
+    margin: 0;
+    gap: 28px;
     width: 170px;
     height: 30px;
     border-radius: 14px;
@@ -424,12 +443,15 @@ RENT A BOAT
     color: white;
     border: none;
     outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    padding: 10px 0 0 0;
+    font-family: 'The Dodger Inky Regular', serif;
     cursor: pointer;
 }
 
 .datetime-number-persons button span {
-    font-size: 12px;
+    margin-top: -1px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -438,11 +460,13 @@ RENT A BOAT
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-family: 'The Dodger Inky Regular', serif;
     width: 150px;
     height: 45px;
     background: #AD7F33;
     color: white;
-    font-size: 22px;
+    font-size: 34px;
+    padding: 17px 0 0 0;
     font-weight: 600;
     border-radius: 22px;
     border: none;
@@ -458,13 +482,14 @@ RENT A BOAT
     overflow: hidden;
     width: 100%;
     height: 100px;
+    margin-top: 20px;
 }
 
 .carrousel-three-boats__container {
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     align-items: center;
     flex-direction: row;
     margin-right: 15px;
@@ -547,7 +572,8 @@ RENT A BOAT
     border-radius: 10px;
     position: absolute;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-family: 'The Dodger Inky Regular', serif;
     top: 0;
     z-index: 600;
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -578,9 +604,9 @@ RENT A BOAT
     border: 1px solid #AD7F33;
     border-radius: 8px;
     outline: none;
-    font-size: 12px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .container-input-date input {
@@ -593,18 +619,18 @@ RENT A BOAT
     outline: none;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 #container-date__close {
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
     background: #AD7F33;
 }
 
 #container-persons__close {
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
     background: #AD7F33;
 }
 
@@ -644,9 +670,13 @@ RENT A BOAT
     width: 50%;
     color: #AD7F33;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
+}
+
+.lancha-rapida__container span:nth-child(1) {
+    margin-bottom: -31px;
 }
 
 /*
@@ -694,7 +724,7 @@ FIRST FORM (20 PAX)
     flex-direction: column;
     width: 80%;
     height: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .form-booking__container__content h2 {
@@ -705,8 +735,8 @@ FIRST FORM (20 PAX)
     color: white;
     font-size: 18px;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .subtitle {
@@ -722,7 +752,7 @@ FIRST FORM (20 PAX)
     text-transform: uppercase;
     color: white;
     margin-top: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .form-booking__container__content form {
@@ -734,7 +764,7 @@ FIRST FORM (20 PAX)
     width: 80%;
     height: 450px;
     margin-top: -100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .form-booking__container__content form button {
@@ -746,12 +776,13 @@ FIRST FORM (20 PAX)
     width: 120px;
     height: 45px;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 34px;
+    padding: 15px 0 0 0;
     font-weight: 600;
     border: none;
     outline: none;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 
     cursor: pointer;
 }
@@ -764,7 +795,7 @@ FIRST FORM (20 PAX)
     width: 100%;
     height: 45px;
     border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .form-booking__container__content input::placeholder {
@@ -772,7 +803,7 @@ FIRST FORM (20 PAX)
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
     color: #c39955;
 }
 
@@ -901,10 +932,7 @@ NEW PAGE - COMIDAS Y BEBIDAS
     top: calc(100% / 2.4);
     left: calc(100% / 11.5);
     color: white;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'The Dodger Inky Regular', serif;
     text-transform: uppercase;
     z-index: 2;
 }
@@ -1130,7 +1158,7 @@ NEW ISLAND DAY
 }
 
 .para-tener-en-cuenta__container h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
     font-size: 55px;
     text-transform: uppercase;
     margin-top: -8px;
@@ -1200,7 +1228,7 @@ NEW ISLAND DAY
     flex-direction: column;
     gap: 10px;
     width: 80%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
     color: #AD7F33;
     font-weight: 600
 }
@@ -1236,7 +1264,7 @@ NOT INCLUDE SECTION
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
     width: 100%;
 }
 
@@ -1488,7 +1516,7 @@ VALORA TU RESERVA SECTION
     background-size: cover;
     background-attachment: inherit;
     background-position: center top -40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .val-your-reservation__container {
@@ -1705,7 +1733,7 @@ PREGUNTAS FRECUENTES
     background-size: cover;
     background-attachment: inherit;
     background-position: center top;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 }
 
 .faqs__container {
@@ -1803,7 +1831,7 @@ PREGUNTAS FRECUENTES
     }
 
     .lists-two .two-two-container li {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .waves img {
@@ -1819,7 +1847,7 @@ PREGUNTAS FRECUENTES
     }
 
     .lists-one li {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .lists-one li img {
@@ -1839,7 +1867,7 @@ PREGUNTAS FRECUENTES
     }
 
     .lists-two .two-container li {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .rent-a-boat {
@@ -1871,7 +1899,7 @@ PREGUNTAS FRECUENTES
     */
 
     .letters-rent-a-boat-lists-btn__container p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     /*
@@ -1879,11 +1907,14 @@ PREGUNTAS FRECUENTES
     */
 
     .form-booking__container__content h2 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 24px;
+        font-family: 'The Dodger Inky Regular', serif;
     }
 
     .form-booking__container__content span {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'The Dodger Inky Regular', serif;
+        margin-top: -40px;
+        font-size: 20px;
     }
 
 
@@ -1928,7 +1959,7 @@ PREGUNTAS FRECUENTES
     }
 
     .letters-rent-a-boat-lists-btn__container p {
-        font-size: 13px;
+        font-size: 18px;
         margin-bottom: -50px;
     }
 
@@ -2355,7 +2386,7 @@ PREGUNTAS FRECUENTES
     }
 
     .para-tener-en-cuenta__container h3 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'The Dodger Inky Regular', serif;
         font-size: 41px;
         text-transform: uppercase;
         margin-top: -8px;
@@ -2380,7 +2411,7 @@ PREGUNTAS FRECUENTES
         gap: 30px;
         width: 80%;
         height: 100%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'The Dodger Inky Regular', serif;
         color: #AD7F33;
         font-weight: 600;
     }
@@ -2395,7 +2426,7 @@ PREGUNTAS FRECUENTES
         align-items: center;
         flex-direction: column;
         background: #AD7F33;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'The Dodger Inky Regular', serif;
         width: 100%;
         height: 100vh;
         margin-top: 353px;

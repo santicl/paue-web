@@ -1,11 +1,16 @@
 @font-face {
     font-family: 'Amarillis';
-    src: url('fonts/amarillis.otf') format('opentype');
+    src: url('../fonts/amarillis.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'The Dodger Inky Regular';
+    src: url('../fonts/the-dodger-inky-regular.ttf') format('ttf');
 }
 
 body {
     background: white;
-    font-family: 'Amarillis', sans-serif;
+    font-family: 'Amarillis';
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -183,10 +188,7 @@ header .header-carrousel__item img {
 }
 
 .item {
-    font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Mono', monospace;
+    font-family: 'Amarillis', sans-serif;
     position: absolute;
 }
 
@@ -354,7 +356,7 @@ MENU HEADER
     flex-direction: column;
     width: 100%;
     height: 100%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'The Dodger Inky Regular', serif;
 
   }
 
@@ -363,7 +365,7 @@ MENU HEADER
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    gap: 60px;
+    gap: 28px;
     width: 120%;
     height: 80%;
     margin-right: -50px;
@@ -398,6 +400,7 @@ MENU HEADER
     color: #AD7F33;
     gap: 10px;
     width: 100%;
+    height: 28px;
     padding: 8px;
   }
 
@@ -435,9 +438,8 @@ MENU HEADER
   }
 
   .brand__ul ul li a span {
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: -12px;
   }
   
   .menu-header ul {
@@ -457,6 +459,7 @@ MENU HEADER
   .menu-header.menu-open ul {
     opacity: 1;
     pointer-events: auto;
+    margin-right: -57px;
   }
 
 @keyframes wave {
