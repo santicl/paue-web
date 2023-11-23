@@ -502,7 +502,5 @@ MENU HEADER
   }
 
   @media screen and (max-width: 450px) {
-    .title-one {
-        right: calc(100% / 7);
-    }
+
   }

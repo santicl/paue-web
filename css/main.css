@@ -2509,4 +2509,8 @@ PREGUNTAS FRECUENTES
     .fotos-line-img img:nth-child(2) {
         height: 285px;
     }
+
+    .title-one {
+        right: calc(100% / 7);
+    }
   }
