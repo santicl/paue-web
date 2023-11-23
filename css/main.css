@@ -2532,5 +2532,6 @@ PREGUNTAS FRECUENTES
 
     .new-island-day-img__container {
         justify-content: end;
+        margin: 0 -39px 0 0;
     }
   }
