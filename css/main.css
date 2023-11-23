@@ -2526,4 +2526,8 @@ PREGUNTAS FRECUENTES
     .CB-form__container {
         margin-top: 46px;
     }
+
+    .CB-form__container img {
+        width: 100%;
+    }
   }
