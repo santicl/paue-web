@@ -671,6 +671,7 @@ RENT A BOAT
     color: #AD7F33;
     font-weight: 600;
     font-size: 18px;
+    margin-top: 10px;
     text-transform: uppercase;
     font-family: 'The Dodger Inky Regular', serif;
 }
@@ -2081,7 +2082,7 @@ PREGUNTAS FRECUENTES
     }
 
     .fotos-line-img img:nth-child(2) {
-        height: 256px;
+        height: 332px;
     }
 
     .island-day__container {
@@ -2494,4 +2495,10 @@ PREGUNTAS FRECUENTES
         font-size: 12px;
     }
 
+  }
+
+  @media screen and (max-width: 450px) {
+    .fotos-line-img img:nth-child(2) {
+        height: 303px;
+    }
   }
