@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Amarillis';
-    src: url('../fonts/amarillis.otf') format('opentype');
+    src: url('../fonts/Amaryllis.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'The Dodger Inky Regular';
-    src: url('../fonts/the-dodger-inky-regular.ttf') format('ttf');
+    src: url('../fonts/the-dodger-inky-regular.ttf') format('truetype');
 }
 
 body {
