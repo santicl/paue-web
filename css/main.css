@@ -2530,4 +2530,8 @@ PREGUNTAS FRECUENTES
     .CB-form__container img {
         width: 100%;
     }
+
+    .new-island-day-img__container {
+        justify-content: end;
+    }
   }
