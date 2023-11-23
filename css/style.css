@@ -201,14 +201,15 @@ header .header-carrousel__item img {
 }
 
 .title-one h2 {
+    font-weight: 100;
     font-size: 75px;
     margin: 0;
-    margin-bottom: -35px;
+    margin-bottom: -30px;
 }
 
 .title-one span:nth-child(3) {
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 100;
 }
 
 .title-two {
@@ -227,29 +228,32 @@ header .header-carrousel__item img {
     font-size: 75px;
     margin: 0;
     margin-left: -175px;
+    font-weight: 100;
 }
 
 .title-two span {
     font-size: 75px;
-    font-weight: 600;
+    font-weight: 100;
     margin-right: -50px;
     margin-top: -20px;
 }
 
 .title-three {
     position: absolute;
-    top: calc(100% / 5);
-    right: calc(100% / 4);
+    top: calc(100% / 3.4);
+    right: calc(100% / 6.5);
     color: #AD7F33;
     font-size: 50px;
 }
 
 .title-three h2 {
+    font-weight: 100;
     margin: 0;
     margin-bottom: -20px;
 }
 
 .title-three span {
+    font-weight: 100;
     color: #AD7F33;
     margin-right: -100px;
 }
@@ -267,13 +271,14 @@ header .header-carrousel__item img {
 }
 
 .title-four h2 {
+    font-weight: 100;
     margin: 0;
     margin-bottom: -28px;
 }
 
 .title-four span {
     font-size: 65px;
-    font-weight: 600;
+    font-weight: 100;
     color: white;
     margin: 0;
 }
