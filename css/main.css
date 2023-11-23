@@ -947,14 +947,17 @@ NEW PAGE - COMIDAS Y BEBIDAS
 }
 
 .booking-with-us__content-title h2 {
-    font-size: 85px;
+    font-family: 'Amarillis', serif;
+    font-weight: 100;
+    font-size: 60px;
     margin: 0;
-    margin-bottom: -30px;
+    margin-bottom: -13px;
 }
 
 .booking-with-us__content-title span {
-    font-size: 50px;
-    margin-left: 85px;
+    font-family: 'Amarillis', serif;
+    font-size: 36px;
+    margin-left: 46px;
 }
 
 .booking-with-us__container img {
