@@ -215,9 +215,17 @@ main {
 }
 
 .waves {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 28%;
     top: 15px;
-    right: 60px;
+    right: 0;
     position: absolute;
+}
+
+.waves img {
+    width: 50%;
 }
 
 
