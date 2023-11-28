@@ -2501,6 +2501,21 @@ GALERIA
         width: 138px;
         height: 41px;
     }
+    .island-day__content__container img {
+        width: 270px;
+    }
+    .value-price__text h2 {
+        font-size: 16px;
+    }
+    .value-price__text p {
+        margin-top: -16px;
+    }
+    .waves-new-island-day img {
+        width: 130px;
+    }
+    .waves-new-island-day {
+        top: 166px;
+    }
   }
 
 
