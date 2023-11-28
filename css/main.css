@@ -2057,6 +2057,10 @@ GALERIA
   }
 
   @media screen and (max-width: 1115px) {
+    .title-one {
+        right: calc(100% / 4);
+    }
+
     .title-two-food-paue {
         top: calc(100% / 2.5);
         right: auto;
@@ -2064,6 +2068,9 @@ GALERIA
     .title-one-foods h2 {
         margin-bottom: -17px;
         margin-right: -98px;
+    }
+    .title-four {
+        top: 75px;
     }
 
 
@@ -2405,6 +2412,49 @@ GALERIA
     .letters-and-btn-booking__container {
         justify-content: center;
         width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 867px) {
+    .text-by-paragraph p {
+        font-size: 15px
+    }
+    .lists-one li img {
+        width: 55px;
+    }
+    .lists-two li img {
+        width: 55px;
+    }
+    .lists-one li {
+        font-size: 15px;
+    }
+    .lists-two .two-container li {
+        font-size: 15px;
+    }
+    .letters-and-btn-booking__container p {
+        font-size: 15px
+    }
+    .letters-lists-services li img {
+        width: 55px;
+    }
+    .letters-lists-services li span {
+        font-size: 15px;
+    }
+    .letters-and-btn-booking__container p {
+        margin: 0;
+    }
+    .private-boat-services {
+        height: 117vh;
+    }
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 15px;
+    }
+    .carrousel-boats-and-booking {
+        margin-top: -5px;
+    }
+
+    .carrousel-three-boats {
+        margin-top: 5px;
     }
   }
 
