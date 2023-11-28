@@ -2449,6 +2449,115 @@ hr {
     }
   }
 
+  /* TABLETS VERTICAL */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .title-one {
+        top: 250px;
+        right: calc(100% / 6);
+    }
+    .title-three {
+        top: calc(100% / 3);
+        right: calc(100% / 22);
+    }
+    .title-four {
+        top: 157px;
+    }
+    .header-carrousel__item-text {
+        top: 233px;
+    }
+    .header-carrousel__item-text-container {
+        flex-direction: column;
+    }
+    .text-by-img img {
+        margin-left: 0;
+    }
+    .text-by-img, .text-by-paragraph {
+        width: 90%;
+    }
+    .text-by-paragraph p {
+        font-size: 27px;
+    }
+    .island-day__images-btn {
+        width: 5%;
+    }
+    .island-day {
+        height: 66vh;
+    }
+    .lists-one li img, .lists-two li img {
+        width: 49px;
+    }
+    .lists-one li, .lists-two .two-container li {
+        font-size: 14px;
+    }
+    .island-day__price-value {
+        font-size: 45px;
+    }
+    .private-boat-services {
+        height: 66vh;
+    }
+    .img-private-boat-services {
+        width: 5%;
+    }
+    .letter-private-boat {
+        width: 362px;
+    }
+    .letters-and-btn-booking__container p, .letters-lists-services li span {
+        font-size: 14px;
+    }
+    .letters-lists-services li img {
+        width: 59px;
+    }
+    .letters-lists-services-btn {
+        width: 130px;
+        height: 38px;
+    }
+    .letters-and-btn-booking__container {
+        width: 88%;
+    }
+    .letters-lists-services {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .rent-a-boat {
+        height: 66vh;
+    }
+    .img-rent-a-boat-title-img {
+        width: 57%;
+    }
+    .img-line-reant-a-boat {
+        width: 320px;
+    }
+    .letters-rent-a-boat-lists-btn {
+        width: 43%;
+    }
+    .datetime-number-persons button {
+        width: 135px;
+        height: 24px;
+    }
+    .datetime-number-persons button span {
+        font-size: 13px;
+    }
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 13px;
+        margin-bottom: -9px;
+    }
+    .carrousel-boats-and-booking {
+        margin-top: 8px;
+    }
+    .carrousel-three-boats__container {
+        width: 71%;
+        height: 71%;
+    }
+    .letters-lists-rent-a-boat-btn {
+        width: 118px;
+        height: 34px;
+        font-size: 30px;
+    }
+    .carrousel-three-boats {
+        margin-top: -10px;
+    }
+  }
+
   @media screen and (max-width: 590px) {
 
     .menu-header.menu-open {
