@@ -2219,20 +2219,6 @@ hr {
     .private-boat-services {
         height: 90vh;
     }
-
-    .title-one {
-        top: 90px;
-    }
-
-    .title-three {
-        top: calc(100% / 4);
-        right: calc(100% / 6);
-    }
-
-    .title-four {
-        top: 65px;
-    }
-
     .island-day {
         height: 110vh;
     }
@@ -2449,34 +2435,8 @@ hr {
     }
   }
 
-  /* TABLETS VERTICAL */
+    /* TABLETS VERTICAL */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    .title-one {
-        top: 250px;
-        right: calc(100% / 6);
-    }
-    .title-three {
-        top: calc(100% / 3);
-        right: calc(100% / 22);
-    }
-    .title-four {
-        top: 157px;
-    }
-    .header-carrousel__item-text {
-        top: 233px;
-    }
-    .header-carrousel__item-text-container {
-        flex-direction: column;
-    }
-    .text-by-img img {
-        margin-left: 0;
-    }
-    .text-by-img, .text-by-paragraph {
-        width: 90%;
-    }
-    .text-by-paragraph p {
-        font-size: 27px;
-    }
     .island-day__images-btn {
         width: 5%;
     }
@@ -2557,6 +2517,8 @@ hr {
         margin-top: -10px;
     }
   }
+
+
 
   @media screen and (max-width: 590px) {
 

@@ -525,6 +525,36 @@ MENU HEADER
       }
   }
 
+    /* TABLETS VERTICAL */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .title-one {
+            top: 250px;
+            right: calc(100% / 6);
+        }
+        .title-three {
+            top: calc(100% / 3);
+            right: calc(100% / 22);
+        }
+        .title-four {
+            top: 157px;
+        }
+        .header-carrousel__item-text {
+            top: 233px;
+        }
+        .header-carrousel__item-text-container {
+            flex-direction: column;
+        }
+        .text-by-img img {
+            margin-left: 0;
+        }
+        .text-by-img, .text-by-paragraph {
+            width: 90%;
+        }
+        .text-by-paragraph p {
+            font-size: 27px;
+        }
+}
+
   @media screen and (max-width: 600px) {
 
     header .header-carrousel {
@@ -568,3 +598,4 @@ MENU HEADER
         font-size: 19px;
     }
   }
+
