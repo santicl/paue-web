@@ -1341,7 +1341,7 @@ NOT INCLUDE SECTION
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40vh;
+    height: 60vh;
 }
 
 .not-include__container {
@@ -1395,9 +1395,6 @@ NOT INCLUDE SECTION
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -20px;
-    margin-left: 20px;
-    margin-bottom: 40px;
     margin-top: 20px;
 }
 
@@ -1422,7 +1419,7 @@ NOT INCLUDE SECTION
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 200px;
+    height: 312px;
     background: white;
     color: #AD7F33;
 }
