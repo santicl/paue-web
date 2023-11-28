@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'Amarillis';
-    src: url('../fonts/amarillis.otf') format('opentype');
+    font-family: 'Amaryllis';
+    src: url('../fonts/amarillis.ttf') format('truetype'),
+         url('../fonts/amarillis.otf') format('opentype'); /* Agrega el archivo .otf aquí */
 }
 
 @font-face {
@@ -12,7 +13,67 @@ main {
     width: 100%;
     height: auto;
     font-family: 'The Dodger Inky Regular', serif;
+    position: relative;
 }
+
+.btn-wap-fixed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #25d366;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: all ease-in-out 0.2s;
+    z-index: 999;
+}
+
+.btn-wap-fixed:hover {
+    background: #5be58e;
+}
+
+.btn-wap-fixed svg {
+    width: 60%;
+    height: 60%;
+    color: white;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    z-index: 1000;
+  }
+  
+  .logo {
+    width: 90px; /* Ajusta el tamaño del logo */
+    height: auto;
+    z-index: 2;
+  }
+  
+  .spinner {
+    border: 2px solid #f3f3f3; /* Color del borde del spinner */
+    border-top: 2px solid #AD7F33; /* Color del borde superior del spinner */
+    border-radius: 50%;
+    width: 120px; /* Ajusta el tamaño del spinner */
+    height: 120px; /* Ajusta el tamaño del spinner */
+    position: absolute;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 
 .island-day {
     display: flex;
@@ -49,9 +110,11 @@ main {
     justify-content: center;
     align-items: center;
     width: 150px;
-    height: 45px;
+    height: 38px;
     border: none;
     border-radius: 30px;
+    padding-top: 17px;
+    padding-bottom: -78px;
     outline: none;
     color: white;
     font-size: 38px;
@@ -300,6 +363,7 @@ SECTION PRIVATE BOAT SERVICES
     flex-direction: column;
     width: 68%;
     height: 75%;
+    margin-top: -123px;
 }
 
 .letters-and-btn-booking__container p {
@@ -776,11 +840,12 @@ FIRST FORM (20 PAX)
     font-family: 'The Dodger Inky Regular', serif;
 }
 
-.form-booking__container__content form button {
+.form-booking__container__content form a {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #b9965e;
+    text-decoration: none;
     color: white;
     width: 120px;
     height: 45px;
@@ -792,11 +857,10 @@ FIRST FORM (20 PAX)
     outline: none;
     text-transform: uppercase;
     font-family: 'The Dodger Inky Regular', serif;
-
     cursor: pointer;
 }
 
-.form-booking__container__content form button:hover {
+.form-booking__container__content form a:hover {
     background: #dca54b;
 }
 
@@ -828,19 +892,20 @@ NEW PAGE - COMIDAS Y BEBIDAS
 
 .title-one-foods {
     top: calc(100% / 2.3);
-    right: calc(100% / 7);
+    right: calc(100% / 9);
     color: white;
 }
 
 .title-one-foods h2 {
+    font-weight: 100;
     margin: 0;
     text-transform: uppercase;
     font-size: 65px;
-    margin-bottom: -30px;
+    margin-bottom: -25px;
 }
 
 .title-one-foods span {
-    font-weight: 600;
+    font-weight: 100;
     margin: 0;
     text-transform: uppercase;
     font-size: 65px;
@@ -853,7 +918,7 @@ NEW PAGE - COMIDAS Y BEBIDAS
     flex-direction: row;
     gap: 40px;
     top: calc(100% / 2.3);
-    right: calc(100% / 2);
+    right: auto;
     color: white;
 }
 
@@ -883,6 +948,7 @@ NEW PAGE - COMIDAS Y BEBIDAS
     margin: 0;
     text-transform: uppercase;
     font-size: 75px;
+    font-weight: 100;
 }
 
 .title-two-food-paue span {
@@ -890,6 +956,7 @@ NEW PAGE - COMIDAS Y BEBIDAS
     margin: 0;
     text-transform: uppercase;
     font-size: 65px;
+    font-weight: 100;
 }
 
 .title-one-foods button {
@@ -1144,11 +1211,15 @@ NEW ISLAND DAY
     margin-top: 50px;
 }
 
-.new-island-day-btn button {
+.new-island-day-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 200px;
     height: 35px;
     background: white;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
     color: #AD7F33;
@@ -1175,7 +1246,7 @@ NEW ISLAND DAY
     font-family: 'The Dodger Inky Regular', serif;
     font-size: 84px;
     text-transform: uppercase;
-    margin-top: -95px;
+    margin-top: -66px;
     margin-right: 60px;
 }
 
@@ -1224,7 +1295,7 @@ NEW ISLAND DAY
     align-items: center;
     width: 100%;
     background: transparent;
-    margin-top: -203px;
+    margin-top: -173px;
 }
 
 .information-about-island__container {
@@ -1462,7 +1533,11 @@ CONFIRM BOOKING
     font-weight: 100;
 }
 
-.CB-form__container form button {
+.CB-form__container form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 180px;
     height: 35px;
     background: #AD7F33;
@@ -1727,11 +1802,16 @@ VALORA TU RESERVA SECTION
     color: white;
 }
 
-.form-val-your-reservation form button {
+.form-val-your-reservation form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 200px;
     height: 40px;
     background: #AD7F33;
     color: white;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
     border: none;
@@ -1979,6 +2059,102 @@ GALERIA
     width: 40%;
   }
 
+  @media screen and (max-width: 1115px) {
+    .title-two-food-paue {
+        top: calc(100% / 2.5);
+        right: auto;
+    }
+    .title-one-foods h2 {
+        margin-bottom: -17px;
+        margin-right: -98px;
+    }
+
+
+    .island-day__images-btn {
+        width: 55%;
+    }
+
+    .title-island-day {
+        margin-left: 57px;
+    }
+
+    .lists-one {
+        gap: 0;
+    }
+
+    .lists-one li img {
+        width: 73px;
+    }
+
+    .lists-two {
+        grid-template-columns: repeat(auto-fit, minmax(
+            210px,
+            1fr
+        ));
+        margin-bottom: -132px;
+        gap: 0;
+    }
+
+    .lists-two li img {
+        width: 73px;
+    }
+
+    .two-lists-and-value {
+        width: 38%;
+    }
+
+    .island-day__price-value {
+        margin-top: 146px;
+        margin-bottom: -117px;
+    }
+
+
+    .img-private-boat-services {
+        width: 42%;
+    }
+
+    .letter-private-boat {
+        margin-left: 185px;
+    }
+
+    .img-line-reant-a-boat {
+        height: 463px;
+    }
+
+    .img-rent-a-boat-title-img {
+        width: 59%;
+    }
+
+    .waves-new-island-day {
+        top: 224px;
+    }
+
+    .new-island-day-img {
+        margin-top: -72px;
+    }
+    .firts-lists-omne-list {
+        margin-top: 10px;
+    }
+    .three-lists-three-list {
+        margin: 0;
+    }
+    .seconds-lists-two-list {
+        grid-template-columns: repeat(auto-fit, minmax(
+            220px,
+            1fr
+        ));
+    }
+    .new-island-day-img {
+        margin-top: -10px;
+    }
+    .para-tener-en-cuenta__container h3 {
+        margin-top: -70px;
+    }
+    .information-about-island__container {
+        margin-top: -29px;
+    }
+
+  }
 
 @media screen and (max-width: 980px) {
 
@@ -2134,8 +2310,28 @@ GALERIA
         font-family: 'The Dodger Inky Regular', serif;
         font-size: 20px;
     }
+    .new-island-day-img {
+        margin-top: -135px;
+    }
 
-
+    .firts-lists-omne-list {
+        margin-top: 10px;
+    }
+    .new-island-day-img {
+        margin-top: -26px;
+    }
+    .waves-new-island-day {
+        top: 187px;
+    }
+    .island-day__content__container__lists {
+        margin-top: -5px;
+    }
+    .value-price__text p {
+        margin-top: 0;
+    }
+    .firts-lists-omne-list {
+        margin-top: 15px;
+    }
   }
 
   @media screen and (max-width: 870px) {
@@ -2215,6 +2411,99 @@ GALERIA
     }
   }
 
+
+  @media screen and (max-width: 767px) {
+    .island-day__images-btn {
+        width: 1%;
+    }
+    .two-lists-and-value {
+        width: 40%;
+    }
+
+    .lists-one li img, .lists-two li img {
+        width: 52px;
+    }
+
+    .lists-one li, .lists-two .two-container li {
+        font-size: 16px;
+    }
+
+    .title-island-day {
+        margin-left: 308px;
+    }
+    .island-day__price-value {
+        font-size: 45px;
+    }
+
+    .island-day__price-value {
+        margin-top: 133px;
+        margin-bottom: -81px;
+    }
+
+    .letter-private-boat {
+        width: 337px;
+        margin-left: 420px;
+        margin-bottom: 20px;
+    }
+    
+    .img-private-boat-services {
+        width: 1%;
+    }
+
+    .private-boat-services {
+        height: 97vh;
+    }
+    .letters-and-btn-booking__container p {
+        font-size: 14px;
+    }
+
+    .letters-and-btn-booking__container p {
+        margin: 2px;
+    }
+
+    .letters-lists-services {
+        margin: 3px;
+    }
+
+    .letters-lists-services li img {
+        width: 52px;
+    }
+
+    .img-line-reant-a-boat {
+        height: 310px;
+    }
+
+    .letters-lists-services li span {
+        font-size: 14px;
+    }
+    .letters-lists-services-btn {
+        height: 38px;
+    }
+    .img-rent-a-boat-title-img {
+        width: 56.5%;
+    }
+    .letters-rent-a-boat-lists-btn__container {
+        gap: 33px;
+    }
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 14px;
+    }
+    .datetime-number-persons button {
+        width: 145px;
+        height: 27px;
+    }
+    .carrousel-three-boats__container {
+        width: 73%;
+        height: 73%;
+    }
+
+    .letters-lists-rent-a-boat-btn {
+        width: 138px;
+        height: 41px;
+    }
+  }
+
+
   @media screen and (max-width: 590px) {
 
     .menu-header.menu-open {
@@ -2253,7 +2542,7 @@ GALERIA
 
     .title-two span {
         font-size: 41px;
-        font-weight: 600;
+        font-weight: 100;
         margin-right: -98px;
         margin-top: -20px;
     }
@@ -2411,7 +2700,7 @@ GALERIA
     }
 
     .img-line-reant-a-boat {
-        height: 300px;
+        height: 253px;
     }
 
     .letters-rent-a-boat-lists-btn {
@@ -2454,7 +2743,7 @@ GALERIA
         flex-direction: column;
         gap: 40px;
         top: calc(100% / 2.1);
-        right: 26px;
+        right: -26px;
         color: white;
     }
 
@@ -2736,8 +3025,31 @@ GALERIA
   }
 
   @media screen and (max-width: 450px) {
+    .title-one-foods span {
+        font-weight: 100;
+        font-size: 52px;
+    }
+    .title-one-foods {
+        right: calc(100% / 2.7);
+    }
+    .title-one-foods h2 {
+        font-weight: 100;
+        font-size: 52px;
+    }
+
+    .title-two-food-paue h2 {
+        font-weight: 100;
+        font-size: 52px; 
+    }
+
+    .title-two-food-paue span {
+        font-weight: 100;
+        font-size: 52px;
+    }
+
+
     .fotos-line-img img:nth-child(2) {
-        height: 285px;
+        height: 251px;
     }
 
     .title-one {
@@ -2820,4 +3132,13 @@ GALERIA
   .title-one-foods h2 {
     margin-bottom: -15px;
   }
+  }
+
+  @media screen and (max-width: 387px) {
+    .booking-with-us__content-title span {
+        font-size: 26px;
+    }
+    .waves-new-island-day {
+        margin-top: 218px;
+    }
   }

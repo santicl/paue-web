@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ERROR 404</title>
+    <style>
+          /*
+  404 NOT FOUND
+  */
+
+  @font-face {
+    font-family: 'Amarillis';
+    src: url('../fonts/Amaryllis.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'The Dodger Inky Regular';
+    src: url('../fonts/the-dodger-inky-regular.ttf') format('truetype');
+}
+
+
+  .body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+
+  .notfound-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/home/Slide\ 3A.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.notfound-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .10);
+}
+
+
+.notfound-section__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.waveWrapper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: -15px;
+}
+
+.wave {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.notfound-section__container__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Amarillis';
+    width: 100%;
+    height: 100%;
+}
+
+.notfound-section__container__text a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: 100;
+    width: 180px;
+    height: 50px;
+    background: #AD7F33;
+    border-radius: 60px;
+    color: white;
+    margin-bottom: 50px;
+    transition: all ease-in-out .2s;
+}
+
+.notfound-section__container__text a:hover {
+    background: #b58840;
+}
+
+.notfound-section__container__text a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'The Dodger Inky Regular', serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+.title-notfound {
+    font-family: 'Amarillis';
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 75px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.notfound-section__container__text span {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 60px;
+    color: white;
+}
+
+.hero-waves {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-50px);
+    }
+    50% {
+        transform: translateX(-75px);
+    }
+    75% {
+        transform: translateX(125px);
+    }
+    90% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(-150px); 
+    }
+}
+
+.wave g {
+    animation: waveAnimation 10s linear infinite;
+}
+
+@media screen and (max-width: 450px) {
+    .title-notfound {
+        font-size: 20px;
+    }
+    
+    .notfound-section__container__text span {
+        font-size: 35px;
+    }
+
+    .notfound-section__container__text a {
+        width: 130px;
+        height: 40px;
+    }
+
+    .notfound-section__container__text a span {
+        font-size: 25px;
+    }
+
+    .hero-waves {
+        height: 72px;
+    }
+}
+
+    </style>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,100;1,400&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&family=Young+Serif&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body">
+
+    <section class="notfound-section">
+        <div class="notfound-section__container">
+            <div class="notfound-section__container__text">
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                    </svg>
+                    <span>Ir a Inicio</span>
+                </a>
+                <h2 class="title-notfound">Página no encontrada</h2>
+                <span>404</span>
+            </div>
+            <div class="waveWrapper">
+                <div class="wave">
+                    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 10 150 40" preserveAspectRatio="none">
+                        <defs>
+                            <path id="wave-path" d="M-160 30c30 0 58-18 88-18s58 18 88 18c30 0 58-18 88-18s58 18 88 18c30 0 58-18 88-18v64h-704z"></path>
+                        </defs>
+                        <!-- Capas originales de las olas -->
+                        <g class="wave1">
+                            <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)"></use>
+                        </g>
+                        <g class="wave2">
+                            <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)"></use>
+                        </g>
+                        <g class="wave3">
+                            <use xlink:href="#wave-path" x="50" y="9" fill="#00A19A"></use>
+                        </g>
+                        <!-- Duplicar las capas para un efecto continuo -->
+                        <g class="wave4">
+                            <use xlink:href="#wave-path" x="200" y="3" fill="rgba(255,255,255, .1)"></use>
+                        </g>
+                        <g class="wave5">
+                            <use xlink:href="#wave-path" x="200" y="0" fill="rgba(255,255,255, .2)"></use>
+                        </g>
+                        <g class="wave6">
+                            <use xlink:href="#wave-path" x="200" y="9" fill="#00A19A"></use>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            
+            
+            
+            
+        </div>         
+    </section>
+
+</body>
+
+</html>

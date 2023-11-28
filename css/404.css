@@ -1,0 +1,183 @@
+  /*
+  404 NOT FOUND
+  */
+
+  @font-face {
+    font-family: 'Amarillis';
+    src: url('../fonts/Amaryllis.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'The Dodger Inky Regular';
+    src: url('../fonts/the-dodger-inky-regular.ttf') format('truetype');
+}
+
+
+  .body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+
+  .notfound-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url('../img/home/Slide\ 3A.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.notfound-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .10);
+}
+
+
+.notfound-section__container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.waveWrapper {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: -15px;
+}
+
+.wave {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.notfound-section__container__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Amarillis';
+    width: 100%;
+    height: 100%;
+}
+
+.notfound-section__container__text a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: 100;
+    width: 180px;
+    height: 50px;
+    background: #AD7F33;
+    border-radius: 60px;
+    color: white;
+    margin-bottom: 50px;
+    transition: all ease-in-out .2s;
+}
+
+.notfound-section__container__text a:hover {
+    background: #b58840;
+}
+
+.notfound-section__container__text a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'The Dodger Inky Regular', serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+.title-notfound {
+    font-family: 'Amarillis';
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 75px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.notfound-section__container__text span {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 60px;
+    color: white;
+}
+
+.hero-waves {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-50px);
+    }
+    50% {
+        transform: translateX(-75px);
+    }
+    75% {
+        transform: translateX(125px);
+    }
+    90% {
+        transform: translateX(-50px);
+    }
+    100% {
+        transform: translateX(-150px); 
+    }
+}
+
+.wave g {
+    animation: waveAnimation 10s linear infinite;
+}
+
+@media screen and (max-width: 450px) {
+    .title-notfound {
+        font-size: 20px;
+    }
+    
+    .notfound-section__container__text span {
+        font-size: 35px;
+    }
+
+    .notfound-section__container__text a {
+        width: 130px;
+        height: 40px;
+    }
+
+    .notfound-section__container__text a span {
+        font-size: 25px;
+    }
+
+    .hero-waves {
+        height: 72px;
+    }
+}

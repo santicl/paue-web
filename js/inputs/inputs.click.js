@@ -1,5 +1,6 @@
 const date = document.getElementById('btn-datetime');
 const numberPersons = document.getElementById('btn-number-persons');
+const submit = document.getElementById('btn-rent-boat');
 
 //CONTAINERS
 const containerDate = document.getElementById('container-date');

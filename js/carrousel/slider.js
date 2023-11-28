@@ -14,7 +14,6 @@ const Slider = () => {
         images.forEach((image, i) => {
             if (i === index) {
                 image.classList.add('fade-in');
-                console.log(image.childNodes)
             } else {
                 image.classList.remove('fade-in');
             }
@@ -34,7 +33,6 @@ const Slider = () => {
 window.onload = Slider;
 
 window.addEventListener('resize', function() {
-    console.log('change-img')
     if (window.innerWidth <= 600) {
         document.getElementById('img-ultimate-img').style.display = 'none';
 
@@ -47,7 +45,6 @@ window.addEventListener('resize', function() {
 });
 
 window.addEventListener('load', function() {
-    console.log('change-img')
     if (window.innerWidth <= 600) {
         document.getElementById('img-ultimate-img').style.display = 'none';
 
@@ -58,3 +55,18 @@ window.addEventListener('load', function() {
         document.getElementById('ultimate').classList.remove('ultimate-img');
     }
 });
+
+window.addEventListener('DOMContentLoaded', function() {
+    const firstImage = document.getElementById('first-img-carousel-slide');
+  
+    function firstImageLoaded() {
+        document.querySelector('.loader').style.display = 'none';
+    }
+    
+    if (firstImage.complete) {
+        firstImageLoaded();
+    } else {
+        firstImage.addEventListener('load', firstImageLoaded);
+    }
+  });
+  
