@@ -2046,8 +2046,175 @@ GALERIA
     width: 40%;
   }
 
+.line-divisory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 35px;
+}
 
-@media screen and (max-width: 980px) {
+.line-divisory__container {
+    width: 98%;
+}
+
+.line-divisory__container .container-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%; /* Mueve el elemento hacia abajo un 50% de la altura del contenedor */
+    left: 50%; /* Mueve el elemento hacia la derecha un 50% del ancho del contenedor */
+    transform: translate(-50%, -50%);
+    background: #AD7F33;
+    color: white;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #AD7F33;
+}
+
+@media only screen and (max-width: 1115px) {
+    /*
+    ISLAND DAY MEDIA
+    */
+    .island-day__images-btn {
+        width: 52%;
+    }
+    .two-lists-and-value {
+        width: 42%;
+    }
+    .lists-one li img, .lists-two li img {
+        width: 76px;
+    }
+    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+        font-size: 18px;
+    }
+    .two-lists-and-value {
+        margin-right: 0;
+    }
+    .lists-one {
+        margin-top: 124px;
+    }
+    .lists-two {
+        grid-template-columns: repeat(auto-fit, minmax(
+            210px,
+            1fr
+        ));
+    }
+    .title-island-day {
+        margin-left: 47px;
+    }
+
+    /*
+    PRIVATE BOAT SERVICES MEDIA
+    */
+
+    .img-private-boat-services {
+        width: 38%;
+    }
+    .letter-private-boat {
+        margin-left: 184px;
+    }
+    .letters-lists-services li img {
+        width: 76px;
+    }
+    .letters-lists-services li span {
+        font-size: 18px;
+    }
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+
+
+    .img-line-reant-a-boat {
+        height: 461px;
+    }
+}
+
+@media screen and (max-width: 1092px) {
+    .two-lists-and-value {
+        width: 38%;
+    }
+    .lists-two {
+        grid-template-columns: repeat(auto-fit, minmax(
+            180px,
+            1fr
+        ));
+    }
+    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1067px) {
+    .lists-two {
+        grid-template-columns: repeat(auto-fit, minmax(
+            190px,
+            1fr
+        ));
+    }
+    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+        font-size: 17px;
+    }
+
+    .letters-and-btn-booking {
+        width: 43%;
+    }
+
+    .letters-and-btn-booking__container p, .letters-lists-services li span {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .letters-lists-services li img {
+        width: 67px;
+    }
+
+    .img-rent-a-boat-title-img {
+        width: 59%;
+    }
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 16px;
+    }
+    .datetime-number-persons {
+        margin-top: -44px;
+    }
+    .letters-and-btn-booking {
+        margin-top: 132px;
+    }
+    .line-divisory__container .container-svg {
+        left: 53%;
+    }
+    .letters-lists-rent-a-boat-btn {
+        margin-top: -36px;
+    }
+}
+
+@media screen and (max-width: 1017px) {
+    .two-lists-and-value {
+        width: 38%;
+    }
+    .lists-two {
+        grid-template-columns: repeat(auto-fit, minmax(
+            180px,
+            1fr
+        ));
+    }
+    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
 
     .private-boat-services {
         height: 90vh;
@@ -2097,7 +2264,7 @@ GALERIA
     }
 
     .two-lists-and-value {
-        width: 36%;
+        width: 43%;
         margin-top: 70px;
     }
 
