@@ -1207,11 +1207,15 @@ NEW ISLAND DAY
     margin-top: 50px;
 }
 
-.new-island-day-btn button {
+.new-island-day-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 200px;
     height: 35px;
+    font-size: 25px;
     background: white;
-    font-size: 15px;
     font-weight: 600;
     text-transform: uppercase;
     color: #AD7F33;
