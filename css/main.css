@@ -15,10 +15,6 @@ main {
     position: relative;
 }
 
-.main-section {
-    background: #AD7F33;
-}
-
 .btn-wap-fixed {
     display: flex;
     justify-content: center;
@@ -1476,7 +1472,6 @@ CONFIRM BOOKING
     align-items: center;
     width: 100%;
     position: relative;
-    background: white;
 }
 
 .confirm-booking__container {
