@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>PA'UE Beach Lounge – Beach Club</title>
-    <meta name="description" content="Disfruta en PA'UE Beach Lounge un día inolvidable. Arena blanca, agua cristalina, cómodos espacios, exquisita gastronomía caribeña, deliciosos cóçteles y todo nuestro equipo enfocado en hacer su experiencia unica e inilvidable.">
+    <meta name="description"
+        content="Disfruta en PA'UE Beach Lounge un día inolvidable. Arena blanca, agua cristalina, cómodos espacios, exquisita gastronomía caribeña, deliciosos cóçteles y todo nuestro equipo enfocado en hacer su experiencia unica e inilvidable.">
     <meta property="og:title" content="PA'UE Beach Lounge – Beach Club">
-    <meta property="og:description" content="Disfruta en PA'UE Beach Lounge un día inolvidable. Arena blanca, agua cristalina, cómodos espacios, exquisita gastronomía caribeña, deliciosos cóçteles y todo nuestro equipo enfocado en hacer su experiencia unica e inilvidable.">
+    <meta property="og:description"
+        content="Disfruta en PA'UE Beach Lounge un día inolvidable. Arena blanca, agua cristalina, cómodos espacios, exquisita gastronomía caribeña, deliciosos cóçteles y todo nuestro equipo enfocado en hacer su experiencia unica e inilvidable.">
     <meta property="og:site_name" content="PA'UE Beach Lounge">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://paue.com.co/img/home/logo-gold-paue.png" itemprop="image">
@@ -26,6 +28,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -56,44 +59,57 @@
                         <ul>
                             <li>
                                 <a href="index.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
-                                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                        class="bi bi-house" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
                                     </svg>
                                     <span>Inicio</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="comidas-bebidas.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
-                                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z"/>
-                                      </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                        class="bi bi-shop-window" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z" />
+                                    </svg>
                                     <span>Bar & Restaurante</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="reservas-paue.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-journal-album" viewBox="0 0 16 16">
-                                        <path d="M5.5 4a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5h-5zm1 7a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3z"/>
-                                        <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-                                        <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-                                      </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                        class="bi bi-journal-album" viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.5 4a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5h-5zm1 7a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3z" />
+                                        <path
+                                            d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                                        <path
+                                            d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                                    </svg>
                                     <span>Reservar</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="faqs.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
-                                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                                      </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                        class="bi bi-info-circle" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                        <path
+                                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                    </svg>
                                     <span>Lo que debes saber</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="galeria-paue.html">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
-                                        <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                                        <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                        class="bi bi-images" viewBox="0 0 16 16">
+                                        <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                                        <path
+                                            d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z" />
                                     </svg>
                                     <span>Galería</span>
                                 </a>
@@ -181,7 +197,10 @@
                             <div class="text-by-paragraph">
                                 <div class="text-by-paragraph__container">
                                     <p>
-                                        Disfruta en PA'UE Beach Lounge un día inolvidable. Arena blanca, agua cristalina, cómodos espacios, exquisita gastronomía caribeña, deliciosos cóçteles y todo nuestro equipo enfocado en hacer su experiencia unica e inilvidable. 
+                                        Disfruta en PA'UE Beach Lounge un día inolvidable. Arena blanca, agua
+                                        cristalina, cómodos espacios, exquisita gastronomía caribeña, deliciosos
+                                        cóçteles y todo nuestro equipo enfocado en hacer su experiencia unica e
+                                        inilvidable.
                                     </p>
                                 </div>
                             </div>
@@ -214,74 +233,127 @@
     </header>
 
     <main>
-        <section class="island-day">
-            <div class="island-day__container">
-                <div class="island-day__images-btn">
-                    <img class="title-island-day" src="./img/home/Island day.png" alt="" srcset="">
-                    <div class="fotos-line-img">
-                        <img class="foto-island-day" src="./img/home/Foto Island Day.png" alt="" srcset="">
-                        <img src="./img//home/Linea.png" alt="" sizes="" srcset="">
-                    </div>
-                    <a href="https://paue.meitre.com/">RESERVE</a>
-                </div>
 
-                <div class="two-lists-and-value">
-                    <ul class="lists-one">
-                        <li>
-                            <img src="./img/home/Luxury boats.png" alt="" srcset="">
-                            <span>LUXURY SPORTS BOATS TRANSPORTACION.</span>
-                        </li>
-                        <li>
-                            <img src="./img/home/Panoramic.png" alt="" srcset="">
-                            <span>PANORAMIC TOUR OF ROSARIO ISLAND (OPTIONAL).</span>
-                        </li>
-                        <li>
-                            <img src="./img/home/Botella de agua.png" alt="" srcset="">
-                            <span>BOTTEL OF WATER.</span>
-                        </li>
-                        <li>
-                            <img src="./img/home/musica.png" alt="" srcset="">
-                            <span>MUSIC ATMOSPHERE THROUGHT THE JOURNEY.</span>
-                        </li>
-                    </ul>
+        <section class="content-island-day">
+            <div class="content-island-day__container">
 
-                    <ul class="lists-two">
-                        <div class="two-container">
-                            <li>
-                                <img class="invert-color" src="./img/home/Uso de instalaciones.png" alt="" srcset="">
-                                <span>USE OF THE FACILITIES.</span>
-                            </li>
-                            <li>
-                                <img src="./img/home/Champagne.png" alt="" srcset="">
-                                <span>GLASS OF CHAMPAGNE.</span>
-                            </li>
-                            <li>
-                                <img src="./img/home/Menu 4 tiempos .png" alt="" srcset="">
-                                <span>MENU 4 OPTIONS.</span>
-                            </li>
+
+                <div class="island-day-img-letter-carousel__and__lists">
+                    <div class="island-day-img-letter-carousel__and__lists__container">
+
+                        <div class="island-text-carousel">
+                            <div class="island-text-carousel__container">
+                                
+                                <div class="container-title-island">
+                                    <img class="title-island-day" src="./img/home/Island day.png" alt="" srcset="">
+                                </div>
+
+                                <div class="carousel-island-day">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide foto-island-day">
+                                                <img src="./img/home/Foto Island Day.png" alt="" srcset="">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./img/carousel-home/6M9A3745.jpg" alt="Imagen 2">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./img/carousel-home/DJI_0092-Editar.jpg" alt="Imagen 3">
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <img src="./img/carousel-home/PA'UE Beach Lounge 3-11-2022-451.png" alt="Imagen 4">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                    <div class="line-img-carousel">
+                                        <img src="./img//home/Linea.png" alt="" sizes="" srcset="">
+                                    </div>
+                                </div>
+
+                                <div class="content-island-btn-meitre">
+                                    <a href="https://paue.meitre.com/" target="_blank">
+                                        Reserve
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
 
-                        <div class="two-two-container">
-                            <li>
-                                <img src="./img/home/Kayak.png" alt="" srcset="">
-                                <span>PADDLE BOARD.</span>
-                            </li>
-                            <li class="last-list">
-                                <img src="./img/home/Paddle Board.png" alt="" srcset="">
-                                <span>KAYAK.</span>
-                            </li>
+                        <div class="island-lists-text-imgs">
+                            <div class="island-lists-text-imgs__container">
+
+
+                                <div class="island-lists-text">
+                                    <ul class="island-lists-text__ul">
+                                        <li>
+                                            <img src="./img/home/Luxury boats.png" alt="" srcset="">
+                                            <span>LUXURY SPORTS BOATS TRANSPORTACION.</span>
+                                        </li>
+                                        <li>
+                                            <img src="./img/home/Panoramic.png" alt="" srcset="">
+                                            <span>PANORAMIC TOUR OF ROSARIO ISLAND (OPTIONAL).</span>
+                                        </li>
+                                        <li>
+                                            <img src="./img/home/Botella de agua.png" alt="" srcset="">
+                                            <span>BOTTEL OF WATER.</span>
+                                        </li>
+                                        <li class="ultimate-lists">
+                                            <img src="./img/home/musica.png" alt="" srcset="">
+                                            <span>MUSIC ATMOSPHERE THROUGHT THE JOURNEY.</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="other-lists-island">
+                                        <ul>
+                                            <li>
+                                                <img class="invert-color" src="./img/home/Uso de instalaciones.png" alt="" srcset="">
+                                                <span>USE OF THE FACILITIES.</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/home/Champagne.png" alt="" srcset="">
+                                                <span>GLASS OF CHAMPAGNE.</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/home/Menu 4 tiempos .png" alt="" srcset="">
+                                                <span>MENU 4 OPTIONS.</span>
+                                            </li>
+                                        </ul>
+                                        
+                                        <ul class="container-facility">
+                                            <li>
+                                                <img src="./img/home/Kayak.png" alt="" srcset="">
+                                                <span>PADDLE BOARD.</span>
+                                            </li>
+                                            <li>
+                                                <img src="./img/home/Paddle Board.png" alt="" srcset="">
+                                                <span>KAYAK.</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="island-day__price-value">
+                                    <span>VALOR: $ 340.000 COP</span>
+                                </div>
+
+                            </div>
                         </div>
-                    </ul>
-                    <div class="island-day__price-value">
-                        <span>VALOR: $ 340.000 COP</span>
+                        
                     </div>
                 </div>
-            </div>
-            <div class="waves">
-                <img src="./img/home/Olas.png" alt="" srcset="">
+
+                <div class="waves-waves">
+                    <img src="./img/home/Olas.png" alt="" srcset="">
+                </div>
+
             </div>
         </section>
 
+
+
+        
         <section class="private-boat-services">
             <div class="private-boat-services__container">
                 <div class="img-private-boat-services">
@@ -326,7 +398,11 @@
             <div class="line-divisory__container">
                 <hr>
                 <div class="container-svg">
-                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M479-418ZM158-200 82-468q-3-12 2.5-28t23.5-22l52-18v-184q0-33 23.5-56.5T240-800h120v-120h240v120h120q33 0 56.5 23.5T800-720v184l52 18q21 8 25 23.5t1 26.5l-76 268q-50 0-91-23.5T640-280q-30 33-71 56.5T480-200q-48 0-89-23.5T320-280q-30 33-71 56.5T158-200ZM80-40v-80h80q42 0 83-13t77-39q36 26 77 38t83 12q42 0 83-12t77-38q36 26 77 39t83 13h80v80h-80q-42 0-82-10t-78-30q-38 20-78.5 30T480-40q-41 0-81.5-10T320-80q-38 20-78 30t-82 10H80Zm160-522 240-78 240 78v-158H240v158Zm240 282q47 0 79.5-33t80.5-89q48 54 65 74t41 34l44-160-310-102-312 102 46 158q24-14 41-32t65-74q50 57 81.5 89.5T480-280Z"/></svg>
+                    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
+                        width="24">
+                        <path
+                            d="M479-418ZM158-200 82-468q-3-12 2.5-28t23.5-22l52-18v-184q0-33 23.5-56.5T240-800h120v-120h240v120h120q33 0 56.5 23.5T800-720v184l52 18q21 8 25 23.5t1 26.5l-76 268q-50 0-91-23.5T640-280q-30 33-71 56.5T480-200q-48 0-89-23.5T320-280q-30 33-71 56.5T158-200ZM80-40v-80h80q42 0 83-13t77-39q36 26 77 38t83 12q42 0 83-12t77-38q36 26 77 39t83 13h80v80h-80q-42 0-82-10t-78-30q-38 20-78.5 30T480-40q-41 0-81.5-10T320-80q-38 20-78 30t-82 10H80Zm160-522 240-78 240 78v-158H240v158Zm240 282q47 0 79.5-33t80.5-89q48 54 65 74t41 34l44-160-310-102-312 102 46 158q24-14 41-32t65-74q50 57 81.5 89.5T480-280Z" />
+                    </svg>
                 </div>
             </div>
         </div>
@@ -373,8 +449,10 @@
                                                     d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                                             </svg>
                                         </button>
-                                        <div id="container-persons" style="display: none;" class="container-input-persons">
-                                            <input placeholder="Numero de personas" required type="number" id="inputNumPersons">
+                                        <div id="container-persons" style="display: none;"
+                                            class="container-input-persons">
+                                            <input placeholder="Numero de personas" required type="number"
+                                                id="inputNumPersons">
                                             <button id="container-persons__close">Guardar Número</button>
                                         </div>
                                     </div>
@@ -393,10 +471,16 @@
                                         </div>
                                     </div>
                                     <button id="previous">
-                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" height="45"
+                                            viewBox="0 -960 960 960" width="45">
+                                            <path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z" />
+                                        </svg>
                                     </button>
                                     <button id="next">
-                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" height="45"
+                                            viewBox="0 -960 960 960" width="45">
+                                            <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+                                        </svg>
                                     </button>
                                 </div>
                             </div>
@@ -433,9 +517,12 @@
             </div>
         </section>
 
-        <a title="WhatsApp" href="https://wa.me/+573243558487" class="btn-wap-fixed" target="_blank" rel="noopener noreferrer">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+        <a title="WhatsApp" href="https://wa.me/+573243558487" class="btn-wap-fixed" target="_blank"
+            rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+                viewBox="0 0 16 16">
+                <path
+                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
             </svg>
         </a>
 
@@ -494,11 +581,12 @@
                             <div class="paue-information__container">
                                 <a href="https://wa.me/+573243558487" class="number-contact">
                                     <div class="container-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                        </svg>
                                     </div>
                                     <div class="container-span">
                                         <span>+57 324 3558487</span>
@@ -507,24 +595,27 @@
 
                                 <a href="/" class="direction-contact">
                                     <div class="container-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                        </svg>
                                     </div>
                                     <div class="container-span">
-                                        <span>Muelle de la Bodeguita Av. Blas de Lezo, Centro, Cartagena de Indias, Bolívar</span>
+                                        <span>Salidas Desde Muelle de la Bodeguita, Entrada 4, Centro, Cartagena de Indias,
+                                            Bolívar</span>
                                     </div>
                                 </a>
 
                                 <a href="mailto:reservaspaue@gmail.com" class="email-contact">
                                     <div class="container-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                        </svg>
                                     </div>
                                     <div class="container-span">
                                         <span>reservaspaue@gmail.com</span>
@@ -542,11 +633,12 @@
                             <div class="about-paue__container">
                                 <a href="/">
                                     <div class="container-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                        </svg>
                                     </div>
                                     <div class="container-span">
                                         <span>Quiénes somos</span>
@@ -555,11 +647,12 @@
 
                                 <a href="/">
                                     <div class="container-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                        </svg>
                                     </div>
                                     <div class="container-span">
                                         <span>Políticas</span>
@@ -568,11 +661,12 @@
 
                                 <a href="/">
                                     <div class="container-svg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-arrow-up-right-circle-fill" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-arrow-up-right-circle-fill"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M0 8a8 8 0 1 0 16 0A8 8 0 0 0 0 8zm5.904 2.803a.5.5 0 1 1-.707-.707L9.293 6H6.525a.5.5 0 1 1 0-1H10.5a.5.5 0 0 1 .5.5v3.975a.5.5 0 0 1-1 0V6.707l-4.096 4.096z" />
+                                        </svg>
                                     </div>
                                     <div class="container-span">
                                         <span>Contáctanos</span>
@@ -592,6 +686,7 @@
     <script src="./js/carrousel/carrousel.rent.js"></script>
     <script src="./js/inputs/inputs.click.js"></script>
     <script src="./js/forms/rentBoat.js"></script>
+    <script src="./js/carrousel/swiper.js"></script>
 </body>
 
 </html>

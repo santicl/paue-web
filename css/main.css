@@ -51,28 +51,38 @@ main {
     justify-content: center;
     background: white;
     z-index: 1000;
-  }
-  
-  .logo {
-    width: 90px; /* Ajusta el tamaño del logo */
+}
+
+.logo {
+    width: 90px;
+    /* Ajusta el tamaño del logo */
     height: auto;
     z-index: 2;
-  }
-  
-  .spinner {
-    border: 2px solid #f3f3f3; /* Color del borde del spinner */
-    border-top: 2px solid #AD7F33; /* Color del borde superior del spinner */
+}
+
+.spinner {
+    border: 2px solid #f3f3f3;
+    /* Color del borde del spinner */
+    border-top: 2px solid #AD7F33;
+    /* Color del borde superior del spinner */
     border-radius: 50%;
-    width: 120px; /* Ajusta el tamaño del spinner */
-    height: 120px; /* Ajusta el tamaño del spinner */
+    width: 120px;
+    /* Ajusta el tamaño del spinner */
+    height: 120px;
+    /* Ajusta el tamaño del spinner */
     position: absolute;
     animation: spin 2s linear infinite;
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 .island-day {
     display: flex;
@@ -82,7 +92,7 @@ main {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 130vh; 
+    height: 130vh;
     background: #AD7F33;
 }
 
@@ -100,7 +110,7 @@ main {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    width: 75%;
+    width: 50%;
     margin-left: -25px;
 }
 
@@ -112,8 +122,6 @@ main {
     height: 38px;
     border: none;
     border-radius: 30px;
-    padding-top: 17px;
-    padding-bottom: -78px;
     outline: none;
     color: white;
     font-size: 38px;
@@ -154,10 +162,8 @@ main {
 
 .lists-two {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(
-        250px,
-        1fr
-    ));
+    grid-template-columns: repeat(auto-fit, minmax(250px,
+                1fr));
     margin: 0;
     padding: 0;
     width: 100%;
@@ -232,11 +238,16 @@ main {
     filter: grayscale(100%) brightness(0) invert(100%);
 }
 
-.title-island-day {
-    width: 350px;
-    margin-left: -180px;
-    margin-top: 35px;
+.container-title-island {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: -40px;
+}
+
+.title-island-day {
+    width: 450px;
     z-index: 2;
 }
 
@@ -244,20 +255,260 @@ main {
     margin-top: 20px;
 }
 
-.fotos-line-img {
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+
+/*
+ISLAND DAY EDIT
+*/
+
+.content-island-day {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0;
     width: 100%;
-    padding: 0;
+    height: auto;
+    background: #AD7F33;
 }
 
-.fotos-line-img img:nth-child(1) {
-    width: 750px;
-    height: auto;
-    margin-left: 0;
+.content-island-day__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
+
+.island-day-img-letter-carousel__and__lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.island-day-img-letter-carousel__and__lists__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.island-lists-text-imgs {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.island-text-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.island-text-carousel__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.carousel-island-day {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.swiper-container {
+    width: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    display: flex;
+    width: 400%;
+}
+
+.swiper-slide {
+    width: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.line-img-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-img-carousel img {
+    height: 548px;
+}
+
+.swiper-pagination {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.island-lists-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    width: 100%;
+    height: 704px;
+    flex-direction: column;
+}
+
+
+.other-lists-island {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+
+.island-lists-text-imgs__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.other-lists-island ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container-facility {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+}
+
+.other-lists-island ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+.other-lists-island ul li img {
+    width: 100px;
+}
+
+.island-lists-text__ul {
+    padding: 0;
+    margin: 0;
+}
+
+.island-lists-text__ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+.island-lists-text__ul li span, .other-lists-island ul li span {
+    font-size: 20px;
+    color: white;
+}
+
+.island-lists-text__ul li img {
+    width: 100px;
+}
+
+
+.waves-waves {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.waves-waves img {
+    width: 250px;
+}
+
+.content-island-btn-meitre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.content-island-btn-meitre a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background: #c49447;
+    border-radius: 20px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+    z-index: 999;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #00A19A;
+    margin: 0 5px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .fotos-line-img img:nth-child(2) {
     height: 545px;
@@ -272,8 +523,6 @@ main {
     color: white;
     font-size: 49px;
     font-weight: 100;
-    margin-top: 60px;
-    margin-bottom: -30px;
 }
 
 .waves {
@@ -301,7 +550,8 @@ SECTION PRIVATE BOAT SERVICES
     align-items: center;
     background: white;
     width: 100%;
-    height: 120vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .private-boat-services__container {
@@ -361,8 +611,6 @@ SECTION PRIVATE BOAT SERVICES
     align-items: center;
     flex-direction: column;
     width: 68%;
-    height: 75%;
-    margin-top: -123px;
 }
 
 .letters-and-btn-booking__container p {
@@ -387,6 +635,7 @@ SECTION PRIVATE BOAT SERVICES
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0;
 }
 
 .letters-lists-services li {
@@ -438,7 +687,8 @@ RENT A BOAT
     align-items: center;
     background: white;
     width: 100%;
-    height: 125vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .rent-a-boat__container {
@@ -447,7 +697,6 @@ RENT A BOAT
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: -80px;
 }
 
 .img-rent-a-boat-title-img {
@@ -572,15 +821,16 @@ RENT A BOAT
     align-items: center;
     flex: 0 0 auto;
     margin: 0 10px;
-    width: calc(100% / 3); /* Ajusta según la cantidad de elementos */
+    width: calc(100% / 3);
+    /* Ajusta según la cantidad de elementos */
     height: 100%;
     position: relative;
     overflow: hidden;
     opacity: 0.7;
     filter: blur(2px);
     transition: opacity 0.5s, filter 0.5s;
-  }
-  
+}
+
 
 .carousel-item img {
     width: 100%;
@@ -767,12 +1017,12 @@ FIRST FORM (20 PAX)
     align-items: center;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 750px;
 }
 
 .form-booking img {
     width: 100%;
-    height: 100vh;
+    height: -webkit-fill-available;
     object-fit: cover;
 }
 
@@ -782,7 +1032,7 @@ FIRST FORM (20 PAX)
     align-items: center;
     flex-direction: column;
     width: 570px;
-    height: 80vh;
+    height: auto;
     background: rgb(173, 126, 51, 0.7);
     position: absolute;
     top: 50px;
@@ -887,7 +1137,9 @@ FIRST FORM (20 PAX) END
 NEW ISLAND DAY
 */
 
-.new-island-day, .new-island-day__container, .island-day__content {
+.new-island-day,
+.new-island-day__container,
+.island-day__content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -947,7 +1199,7 @@ NEW ISLAND DAY
 
 .value-price__text p {
     font-size: 22px;
-    font-weight: 600;    
+    font-weight: 600;
     padding: 0;
     margin: 12px 0 0 0;
 }
@@ -991,10 +1243,8 @@ NEW ISLAND DAY
 
 .seconds-lists-two-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(
-        250px,
-        1fr
-    ));
+    grid-template-columns: repeat(auto-fit, minmax(250px,
+                1fr));
     width: 100%;
 }
 
@@ -1105,7 +1355,7 @@ NEW ISLAND DAY
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;   
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -1191,7 +1441,8 @@ NOT INCLUDE SECTION
     width: 100%;
 }
 
-.item-text__img-line, .not-include-contents-text {
+.item-text__img-line,
+.not-include-contents-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1328,7 +1579,8 @@ CONFIRM BOOKING
     width: 100%;
 }
 
-.CB-up, .CB-up__container {
+.CB-up,
+.CB-up__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1371,7 +1623,11 @@ CONFIRM BOOKING
     font-weight: 100;
 }
 
-.CB-form__container form button {
+.CB-form__container form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 180px;
     height: 35px;
     background: #AD7F33;
@@ -1636,9 +1892,14 @@ VALORA TU RESERVA SECTION
     color: white;
 }
 
-.form-val-your-reservation form button {
+.form-val-your-reservation form a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     width: 200px;
     height: 40px;
+    font-size: 30px;
     background: #AD7F33;
     color: white;
     text-transform: uppercase;
@@ -1741,11 +2002,11 @@ summary {
     width: 100%;
     font-size: 24px;
     list-style-type: none;
-  }
+}
 
-  details {
+details {
     width: 100%;
-  }
+}
 
 .paragraph-detail {
     display: flex;
@@ -1805,57 +2066,145 @@ GALERIA
     flex-direction: column;
     background: #AD7F33;
     width: 100%;
-    height: 100vh;
-  }
-  
-  .gallery-title {
-    margin-top: 50px; /* Espacio arriba del carrusel */
-    text-align: center; /* Centrar el título */
-  }
+    height: auto;
+}
 
-  .gallery-title h2 {
+.gallery-title {
+    margin-top: 50px;
+    /* Espacio arriba del carrusel */
+    text-align: center;
+    /* Centrar el título */
+}
+
+.gallery-title h2 {
     font-size: 41px;
     font-family: 'Amarillis', serif;
     font-weight: 100;
     color: white;
     text-transform: uppercase;
-  }
+    margin-top: 70px;
+}
 
 
-  .carousel {
-    width: 80%; /* Ajusta el tamaño del carrusel */
+.carousel {
+    width: 80%;
+    /* Ajusta el tamaño del carrusel */
     height: 90%;
-    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    margin: 0 auto;
+    /* Centra el carrusel horizontalmente */
     position: relative;
-  }
-  
-  .slider {
+}
+
+.slider {
     display: flex;
     overflow: hidden;
-  }
-  
-  .slide {
+}
+
+.slide {
     display: none;
     flex-direction: column;
     width: 100%;
-  }
-  
-  .slide.active {
+}
+
+.slide.active {
     display: flex;
-  }
-  
-  .row {
+}
+
+.row {
     display: flex;
     justify-content: space-between;
-  }
+}
+
+.row a {
+    width: calc(33.333% - 10px);
+    /* Espacio entre las imágenes */
+    margin-bottom: 10px;
+    /* Espacio entre las filas */
+}
+
+.row a img {
+    width: 100%;
+}
+
+.row img {
+    cursor: pointer;
+    width: calc(33.333% - 10px);
+    /* Espacio entre las imágenes */
+    margin-bottom: 10px;
+    /* Espacio entre las filas */
+}
+
+
+.modal-popup {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, .8);
+    z-index: 999;
+    transition: all ease-in-out 0.1s;   
+    animation: fadeIn 0.1s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.modal-popup__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container-img-popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+
+.modal-popup__container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AD7F33;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #AD7F33;
+    background-color: rgb(232, 225, 225);
+    cursor: pointer;
+}
+
+.container-img-popup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
   
-  .row img {
-    width: calc(33.333% - 10px); /* Espacio entre las imágenes */
-    margin-bottom: 10px; /* Espacio entre las filas */
-  }
-  
-  .prev,
-  .next {
+
+.prev,
+.next {
     position: absolute;
     top: 42%;
     transform: translateY(-50%);
@@ -1863,30 +2212,30 @@ GALERIA
     background: transparent;
     border: none;
     cursor: pointer;
-  }
-  
-  .prev {
+}
+
+.prev {
     cursor: pointer;
     left: -50px;
-  }
-  
-  .next {
+}
+
+.next {
     cursor: pointer;
     right: -50px;
-  }
-  
-  .prev svg {
+}
+
+.prev svg {
     color: #c1a270;
-  }
-  
-  .next svg {
+}
+
+.next svg {
     color: #c1a270;
-  }
-  
-  .middle-img {
+}
+
+.middle-img {
     width: 120px;
     width: 40%;
-  }
+}
 
 .line-divisory {
     display: flex;
@@ -1909,8 +2258,10 @@ GALERIA
     height: 35px;
     border-radius: 50%;
     position: absolute;
-    top: 50%; /* Mueve el elemento hacia abajo un 50% de la altura del contenedor */
-    left: 50%; /* Mueve el elemento hacia la derecha un 50% del ancho del contenedor */
+    top: 50%;
+    /* Mueve el elemento hacia abajo un 50% de la altura del contenedor */
+    left: 50%;
+    /* Mueve el elemento hacia la derecha un 50% del ancho del contenedor */
     transform: translate(-50%, -50%);
     background: #AD7F33;
     color: white;
@@ -1922,35 +2273,72 @@ hr {
 }
 
 @media only screen and (max-width: 1115px) {
+    .swiper-container {
+        width: 636px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container-title-island {
+        width: 60%;
+    }
+
+
+
+
+
+
+
     /*
     ISLAND DAY MEDIA
     */
     .island-day__images-btn {
         width: 52%;
     }
+
     .two-lists-and-value {
         width: 42%;
     }
-    .lists-one li img, .lists-two li img {
+
+    .lists-one li img,
+    .lists-two li img {
         width: 76px;
     }
-    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+
+    .lists-one li,
+    .lists-two .two-container li,
+    .lists-two .two-two-container li {
         font-size: 18px;
     }
+
     .two-lists-and-value {
         margin-right: 0;
     }
+
     .lists-one {
         margin-top: 124px;
     }
+
     .lists-two {
-        grid-template-columns: repeat(auto-fit, minmax(
-            210px,
-            1fr
-        ));
+        grid-template-columns: repeat(auto-fit, minmax(210px,
+                    1fr));
     }
+
     .title-island-day {
+        width: 350px;
         margin-left: 47px;
+    }
+
+    .title-one {
+        top: 147px;
+        right: calc(100% / 4);
+    }
+
+    .title-four {
+        top: 77px;
+    }
+    .header-carrousel__item-text-container {
+        width: 80%;
     }
 
     /*
@@ -1960,15 +2348,19 @@ hr {
     .img-private-boat-services {
         width: 38%;
     }
+
     .letter-private-boat {
         margin-left: 184px;
     }
+
     .letters-lists-services li img {
         width: 76px;
     }
+
     .letters-lists-services li span {
         font-size: 18px;
     }
+
     .letters-rent-a-boat-lists-btn__container p {
         font-size: 18px;
         margin-bottom: 0;
@@ -1982,28 +2374,64 @@ hr {
 }
 
 @media screen and (max-width: 1092px) {
+
+    .swiper-container {
+        width: 608px;
+        position: relative;
+        overflow: hidden;
+    }
+    .container-title-island {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+
+
+
     .two-lists-and-value {
         width: 38%;
     }
+
     .lists-two {
-        grid-template-columns: repeat(auto-fit, minmax(
-            180px,
-            1fr
-        ));
+        grid-template-columns: repeat(auto-fit, minmax(180px,
+                    1fr));
     }
-    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+
+    .lists-one li,
+    .lists-two .two-container li,
+    .lists-two .two-two-container li {
         font-size: 17px;
     }
 }
 
 @media screen and (max-width: 1067px) {
-    .lists-two {
-        grid-template-columns: repeat(auto-fit, minmax(
-            190px,
-            1fr
-        ));
+
+    .swiper-container {
+        width: 555px;
+        position: relative;
+        overflow: hidden;
     }
-    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+    .island-lists-text__ul li img {
+        width: 91px;
+    }
+    .other-lists-island ul li img {
+        width: 91px;
+    }
+    .island-lists-text__ul li span, .other-lists-island ul li span {
+        font-size: 17px;
+        color: white;
+    }
+
+
+
+    .lists-two {
+        grid-template-columns: repeat(auto-fit, minmax(190px,
+                    1fr));
+    }
+
+    .lists-one li,
+    .lists-two .two-container li,
+    .lists-two .two-two-container li {
         font-size: 17px;
     }
 
@@ -2011,7 +2439,8 @@ hr {
         width: 43%;
     }
 
-    .letters-and-btn-booking__container p, .letters-lists-services li span {
+    .letters-and-btn-booking__container p,
+    .letters-lists-services li span {
         font-size: 16px;
         margin: 0;
     }
@@ -2023,18 +2452,23 @@ hr {
     .img-rent-a-boat-title-img {
         width: 59%;
     }
+
     .letters-rent-a-boat-lists-btn__container p {
         font-size: 16px;
     }
+
     .datetime-number-persons {
         margin-top: -44px;
     }
+
     .letters-and-btn-booking {
         margin-top: 132px;
     }
+
     .line-divisory__container .container-svg {
         left: 53%;
     }
+
     .letters-lists-rent-a-boat-btn {
         margin-top: -36px;
     }
@@ -2044,22 +2478,66 @@ hr {
     .two-lists-and-value {
         width: 38%;
     }
+
     .lists-two {
-        grid-template-columns: repeat(auto-fit, minmax(
-            180px,
-            1fr
-        ));
+        grid-template-columns: repeat(auto-fit, minmax(180px,
+                    1fr));
     }
-    .lists-one li, .lists-two .two-container li, .lists-two .two-two-container li {
+
+    .lists-one li,
+    .lists-two .two-container li,
+    .lists-two .two-two-container li {
         font-size: 15px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .container-img-popup img {
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .island-day-img-letter-carousel__and__lists__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+    .island-text-carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .carousel-island-day {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        width: 100%;
+    }
+    .swiper-container {
+        width: 100%;
+    }
+    
 }
 
 
 @media screen and (max-width: 992px) {
 
+    .swiper-container {
+        width: 507px;
+    }
+
+    .other-lists-island ul li img {
+        width: 81px;
+    }
+    .island-lists-text__ul li img {
+        width: 81px;
+    }
+
     .private-boat-services {
-        height: 90vh;
+        height: 106vh;
     }
 
     .island-day__images-btn {
@@ -2084,9 +2562,10 @@ hr {
     }
 
     .title-island-day {
-        margin-bottom: -40px;
+        margin-bottom: 17px;
         margin-left: 121px;
     }
+
 
     .two-lists-and-value {
         width: 43%;
@@ -2105,7 +2584,7 @@ hr {
 
     .lists-two {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax( 150px, 1fr ));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
 
     .lists-two .two-two-container li {
@@ -2140,7 +2619,8 @@ hr {
         gap: 0;
     }
 
-    .two-container li, .two-two-container li {
+    .two-container li,
+    .two-two-container li {
         font-size: 12px;
     }
 
@@ -2195,20 +2675,91 @@ hr {
     }
 
 
-  }
+}
 
-  @media screen and (max-width: 870px) {
+@media screen and (max-width: 870px) {
+
+    .swiper-container {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+    .title-island-day {
+        margin-left: 0;
+        margin-bottom: -20px;
+    }
+    .waves-waves img {
+        width: 150px;
+    }
+    .island-lists-text-imgs {
+        width: 100%;
+    }
+    .island-lists-text {
+        height: 100%;
+    }
+    .other-lists-island {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+    .island-lists-text__ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,
+                1fr));
+        width: 100%;
+    }
+
+    .ultimate-lists {
+        width: 100%;
+    }
+    .container-facility {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 50px;
+        height: 100%;
+    }
+    .carousel-island-day {
+        width: 100%;
+        height: 100%;
+    }
+    .line-img-carousel {
+        height: 400px;
+    }
+    .line-img-carousel img {
+        height: 100%;
+    }
+    .swiper-slide img {
+        height: 400px;
+    }
+    .island-text-carousel {
+        margin-top: 55px;
+    }
+    .waves-waves img {
+        width: 122px;
+    }
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        z-index: 999;
+    }
 
     .two-lists-and-value {
         width: 40%;
     }
+
     .island-day__images-btn {
         width: 10%;
     }
 
-    .title-island-day {
-        margin-left: 239px;
-    }
 
     .island-day__images-btn a {
         margin-left: 277px;
@@ -2272,103 +2823,135 @@ hr {
         justify-content: center;
         width: 100%;
     }
-  }
+}
 
-    /* TABLETS VERTICAL */
+/* TABLETS VERTICAL */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .island-day__images-btn {
         width: 5%;
     }
+
+    
+
     .island-day {
         height: 66vh;
     }
-    .lists-one li img, .lists-two li img {
+
+    .lists-one li img,
+    .lists-two li img {
         width: 49px;
     }
-    .lists-one li, .lists-two .two-container li {
+
+    .lists-one li,
+    .lists-two .two-container li {
         font-size: 14px;
     }
+
     .island-day__price-value {
         font-size: 45px;
     }
+
     .private-boat-services {
         height: 66vh;
     }
+
     .img-private-boat-services {
         width: 5%;
     }
+
     .letter-private-boat {
         width: 362px;
     }
-    .letters-and-btn-booking__container p, .letters-lists-services li span {
+
+    .letters-and-btn-booking__container p,
+    .letters-lists-services li span {
         font-size: 14px;
     }
+
     .letters-lists-services li img {
         width: 59px;
     }
+
     .letters-lists-services-btn {
         width: 130px;
         height: 38px;
     }
+
     .letters-and-btn-booking__container {
         width: 88%;
     }
+
     .letters-lists-services {
         margin-top: 2px;
         margin-bottom: 2px;
     }
+
     .rent-a-boat {
         height: 66vh;
     }
+
     .img-rent-a-boat-title-img {
         width: 57%;
     }
+
     .img-line-reant-a-boat {
         width: 320px;
     }
+
     .letters-rent-a-boat-lists-btn {
         width: 43%;
     }
+
     .datetime-number-persons button {
         width: 135px;
         height: 24px;
     }
+
     .datetime-number-persons button span {
         font-size: 13px;
     }
+
     .letters-rent-a-boat-lists-btn__container p {
         font-size: 13px;
         margin-bottom: -9px;
     }
+
     .carrousel-boats-and-booking {
         margin-top: 8px;
     }
+
     .carrousel-three-boats__container {
         width: 71%;
         height: 71%;
     }
+
     .letters-lists-rent-a-boat-btn {
         width: 118px;
         height: 34px;
         font-size: 30px;
     }
+
     .carrousel-three-boats {
         margin-top: -10px;
     }
-  }
+}
 
 
-
-  @media screen and (max-width: 590px) {
+@media screen and (max-width: 590px) {
 
     .menu-header.menu-open {
         width: 60%;
         z-index: 999;
     }
 
+    .island-day {
+        height: 180vh;
+    }
+
     .waves img {
         width: 32%;
     }
+
     .island-day__images-btn {
         width: 100%;
         margin: 0;
@@ -2683,7 +3266,7 @@ hr {
         width: 200px;
         height: auto;
         margin-top: 1px;
-        margin-right: -196px; 
+        margin-right: -196px;
     }
 
     .new-island-day-img__container img {
@@ -2748,7 +3331,7 @@ hr {
         margin-top: 147px;
         position: relative;
     }
-    
+
     .item-text__img-line__container {
         gap: 19px;
     }
@@ -2808,12 +3391,13 @@ hr {
         margin: 0 -70px 0 0;
     }
 
-  }
+}
 
-  @media screen and (max-width: 450px) {
+@media screen and (min-width: 420px) and (max-width: 490px) {
     .fotos-line-img img:nth-child(2) {
         height: 251px;
     }
+
     .form-container-two-inputs {
         flex-direction: column;
     }
@@ -2867,26 +3451,174 @@ hr {
     .paragraph-detail__detail ul {
         width: 100%;
     }
-    
-  /* Estilos para dispositivos móviles */
-  .slide .row {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .slide .row img {
-    width: calc(50% - 10px);
-    margin-bottom: 10px;
-  }
-  
-  /* Asegura que se muestren dos imágenes en cada slide */
-  .slide .row img:nth-child(-n+2) {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-  }
 
-  .title-one-foods h2 {
-    margin-bottom: -15px;
-  }
-  }
+    /* Estilos para dispositivos móviles */
+    .slide .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slide .row img {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
+
+    /* Asegura que se muestren dos imágenes en cada slide */
+    .slide .row img:nth-child(-n+2) {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .title-one-foods h2 {
+        margin-bottom: -15px;
+    }
+
+    .fotos-line-img img:nth-child(2) {
+        height: 288px;
+    }
+
+    .line-divisory__container .container-svg {
+        left: 50%;
+    }
+
+    .line-divisory__container .container-svg {
+        width: 29px;
+        height: 29px;
+        padding: 2px;
+    }
+
+    .line-divisory__container .container-svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .island-day {
+        height: 130vh;
+    }
+
+    .letters-and-btn-booking {
+        margin-top: 137px;
+    }
+
+    .img-line-private-boat-services {
+        height: 216px;
+    }
+
+    .line-divisory {
+        margin-top: 71px;
+    }
+
+    .img-line-reant-a-boat {
+        height: 291px;
+    }
+
+    .carrousel-boats-and-booking {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 419px) {
+    .new-island-day-img__container img {
+        margin-right: -39px;
+    }
+
+    .CB-form__container img {
+        width: 316px;
+    }
+
+    .booking-with-us__content-title span {
+        font-size: 24px;
+    }
+
+    .booking-with-us__content-title h2 {
+        margin-bottom: -5px;
+    }
+
+    .title-one-foods {
+        right: calc(100% / 30);
+    }
+
+    .title-one-foods h2 {
+        font-size: 55px;
+        margin-bottom: -14px;
+    }
+
+    .title-one-foods span {
+        font-size: 55px;
+    }
+
+    .title-two-food-paue h2 {
+        font-size: 55px;
+    }
+
+    .title-two-food-paue span {
+        font-size: 55px;
+    }
+
+    .fotos-line-img img:nth-child(2) {
+        height: 264px;
+    }
+
+    .letters-and-btn-booking__container p,
+    .letters-lists-services li span {
+        margin-top: 43px;
+    }
+
+    .img-line-private-boat-services {
+        height: 211px;
+    }
+
+    .line-divisory {
+        margin-top: 80px;
+    }
+
+    .line-divisory__container .container-svg {
+        left: 50%;
+    }
+
+    .line-divisory__container .container-svg {
+        width: 29px;
+        height: 29px;
+        padding: 2px;
+    }
+
+    .line-divisory__container .container-svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .img-line-reant-a-boat {
+        height: 268px;
+    }
+
+    .letters-rent-a-boat-lists-btn__container p {
+        font-size: 16px;
+    }
+
+    .carrousel-boats-and-booking {
+        margin-top: 53px;
+    }
+
+    .waves img {
+        width: 76%;
+    }
+
+    .title-faqs h2 {
+        font-size: 40px;
+        margin-bottom: -33px;
+    }
+
+    .title-faqs h3 {
+        font-size: 24px;
+        margin-left: 5px;
+    }
+
+    .questions__container__question__container img {
+        width: 299px;
+    }
+
+    summary {
+        font-size: 21px;
+    }
+}

@@ -529,11 +529,12 @@ NEW PAGE - COMIDAS Y BEBIDAS
     margin: 0;
     text-transform: uppercase;
     font-size: 65px;
+    font-weight: 100;
     margin-bottom: -30px;
 }
 
 .title-one-foods span {
-    font-weight: 600;
+    font-weight: 100;
     margin: 0;
     text-transform: uppercase;
     font-size: 65px;
@@ -576,10 +577,11 @@ NEW PAGE - COMIDAS Y BEBIDAS
     margin: 0;
     text-transform: uppercase;
     font-size: 75px;
+    font-weight: 100;
 }
 
 .title-two-food-paue span {
-    font-weight: 600;
+    font-weight: 100;
     margin: 0;
     text-transform: uppercase;
     font-size: 65px;

@@ -16,7 +16,7 @@ footer {
     font-family: 'The Dodger Inky Regular', serif;
     color: rgb(25, 24, 24);
     width: 100%;
-    height: 50vh;
+    height: auto;
     background: white;
 }
 
@@ -126,6 +126,8 @@ footer {
 .data-information-paue__container h4 {
     font-size: 19px;
     color: #AD7F33;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .paue-information {
@@ -184,6 +186,8 @@ footer {
 .about-paue__container h4 {
     font-size: 19px;
     color: #AD7F33;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .about-paue__container a {
