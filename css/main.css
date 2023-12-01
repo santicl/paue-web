@@ -3711,9 +3711,7 @@ hr {
         width: 100%;
         margin-left: 0;
     }
-    .content-text-port-taxes {
-        width: 114%;
-    }
+
     .not-include-item-content__container span {
         top: 27px;
         left: -45px;
@@ -3856,7 +3854,8 @@ hr {
     }
     .not-include-item-content__container span {
         top: 15px;
-        left: -95px;
+        left: -45px;
+        font-size: 44px;
     }
     .confirm-booking {
         height: auto;
