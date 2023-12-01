@@ -1137,288 +1137,391 @@ FIRST FORM (20 PAX) END
 NEW ISLAND DAY
 */
 
-.new-island-day,
-.new-island-day__container,
-.island-day__content {
+.island-day-reserve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #AD7F33;
+}
+
+.island-day-reserve__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.island-day-reserve__content-text-and-photo {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
-.island-day__content {
-    flex-direction: column;
+.island-day-reserve__content-text-and-photo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
 }
 
-.new-island-day {
-    height: auto;
-    background: #AD7F33;
+.content-imgtext-and-lists, .img-island-content {
+    width: 50%;
+}
+
+.content-imgtext__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.content-imgtext__content img {
+    width: 300px;
+    margin: 0;
+}
+
+.content-imgtext__content span, .content-imgtext__content p {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.content-imgtext__content span {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: -45px;
+}
+
+.content-imgtext__content p {
+    font-size: 35px;
+}
+
+.content-lists-reserve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-lists-reserve ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,
+    1fr));
+    width: 100%;
+    padding: 0;
+}
+
+.unique-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.content-lists-reserve ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.content-lists-reserve ul li img {
+    width: 90px;
+}
+
+.content-lists-reserve ul li span {
+    font-size: 18px;
     color: white;
 }
 
-.new-island-day__container {
-    flex-direction: column;
-}
-
-.content-text-lists-img {
+.content-button-reserve {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     width: 100%;
 }
 
-.island-day__content__container {
+.content-button-reserve a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    width: 250px;
+    height: 35px;
+    background: white;
+    color: #AD7F33;
+    font-size: 35px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-island-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 50%;
-    margin-top: -18px;
-}
-
-.island-day__content__container img {
-    width: 300px;
-}
-
-.value-price__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 70%;
-}
-
-.value-price__text h2 {
-    font-size: 18px;
-    font-weight: 100;
     padding: 0;
     margin: 0;
+    height: 800px;
 }
 
-.value-price__text p {
-    font-size: 22px;
-    font-weight: 600;
-    padding: 0;
-    margin: 12px 0 0 0;
-}
-
-.island-day__content__container__lists {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 35px;
-}
-
-.firts-lists-omne-list {
+.img-island-content__container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 0;
-    margin-top: 58px;
-    margin-bottom: -20px;
-}
-
-.firts-lists-omne-list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.firts-lists-omne-list li img {
-    width: 80px;
-}
-
-.firts-lists-omne-list li span {
-    font-size: 13px;
-    text-transform: uppercase;
+    height: 100%;
 }
 
 
-.seconds-lists-two-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,
-                1fr));
+.img-island-content img {
+    position: absolute;
+    top: 0;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.seconds-lists-two-list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-}
 
-.seconds-lists-two-list li img {
-    width: 80px;
-}
 
-.seconds-lists-two-list li span {
-    font-size: 13px;
-    text-transform: uppercase;
-}
+/*
+PARA TENER EN CUENTA SECCION
+*/
 
-.three-lists-three-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    width: 80%;
-}
-
-.three-lists-three-list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.three-lists-three-list li img {
-    width: 80px;
-}
-
-.three-lists-three-list li span {
-    font-size: 13px;
-    text-transform: uppercase;
-}
-
-.new-island-day-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 50px;
-}
-
-.new-island-day-btn a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    width: 200px;
-    height: 35px;
-    font-size: 25px;
-    background: white;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #AD7F33;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-}
-
-.para-tener-en-cuenta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.para-tener-en-cuenta__container {
+.text-botton-island {
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 100%;
-}
-
-.para-tener-en-cuenta__container h3 {
-    font-family: 'The Dodger Inky Regular', serif;
-    font-size: 84px;
-    text-transform: uppercase;
-    margin-top: -66px;
-    margin-right: 60px;
-}
-
-
-.new-island-day-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    width: 60%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.new-island-day-img__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    height: 112px;
 }
 
-.new-island-day-img__container img {
-    width: 95%;
-    height: 95%;
-    margin-top: 1px;
-    margin-right: -60px;
-}
-
-.waves-new-island-day {
+.text-botton-island h3 {
     position: absolute;
-    top: 180px;
-    left: -50px;
+    font-size: 110px;
+    margin: 0;
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
 }
 
-.waves-new-island-day img {
-    width: 200px;
-}
+/*
+LISTS INCLUDE SECCION
+*/
 
-.information-about-island {
+.content-include-island-day {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: transparent;
-    margin-top: -173px;
+    padding-bottom: 20px;
 }
 
-.information-about-island__container {
+.content-include-island-day__container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 98%;
+    width: 95%;
     background: white;
 }
 
-.information-about-island__container ul {
+.content-include-island-day__container ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
-    width: 80%;
-    font-family: 'The Dodger Inky Regular', serif;
-    color: #AD7F33;
-    font-weight: 600
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-.information-about-island__container ul li span {
+.content-include-island-day__container ul li {
+    color: #AD7F33;
+    font-size: 18px;
+}
+
+.content-include-island-day__container ul li span {
     color: #00A19A;
 }
 
-.information-about-island__container ul li img {
+.wave-include-island-day {
+    list-style: none;
+}
+
+.wave-include-island-day img {
     width: 120px;
 }
 
-.list-img-wave {
-    list-style: none;
-    margin: -30px 0 -30px 0;
-    padding: 0;
+/*
+NOT INCLUDE SECTION
+*/
+
+.not-include-section-island {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 20px;
 }
+
+.not-include-section-island__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 95%;
+}
+
+.childs-section, .not-include-item-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.childs-section__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.childs-section__content-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.childs-section__container p {
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+}
+
+.childs-section__content-line img {
+    width: 250px;
+}
+
+.not-include-item-content {
+    justify-content: end;
+    align-items: end;
+}
+
+.not-include-item-content__container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    width: 90%;
+    height: 100%;
+}
+
+.content-title-not-include {
+    width: 250px;
+    height: 50px;
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+.not-include-item-content__container span {
+    position: absolute;
+    top: 48px;
+    left: -20px;
+    font-size: 55px;
+    color: white;
+}
+
+.content-text-port-taxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    height: 230px;
+    padding: 8px;
+    background: white;
+}
+
+.content-text-port-taxes__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-text-port-taxes__container h4 {
+    color: #00A19A;
+}
+
+.content-text-port-taxes__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-text-port-taxes__content ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    color: #AD7F33;
+}
+
+.content-text-port-taxes__content ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 NOT INCLUDE SECTION
