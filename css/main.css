@@ -3712,7 +3712,7 @@ hr {
         margin-left: 0;
     }
     .content-text-port-taxes {
-        width: 95%;
+        width: 114%;
     }
     .not-include-item-content__container span {
         top: 27px;
@@ -3879,5 +3879,9 @@ hr {
     }
     .content-include-island-day__container ul {
         gap: 8px;
+    }
+    .not-include-item-content__container span {
+        left: -93px;
+        top: 16px;
     }
 }
