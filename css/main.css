@@ -1429,6 +1429,7 @@ NOT INCLUDE SECTION
 
 .childs-section__content-line img {
     width: 250px;
+    margin-top: 10px;
 }
 
 .not-include-item-content {
