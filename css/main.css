@@ -3084,6 +3084,10 @@ hr {
 
 @media screen and (max-width: 590px) {
 
+    .content-imgtext__content span {
+        margin-bottom: 0;
+    }
+
     .menu-header.menu-open {
         width: 60%;
         z-index: 999;
