@@ -2599,6 +2599,34 @@ hr {
     }
 }
 
+@media only screen and (max-width: 1004px) {
+    .island-day-reserve__content-text-and-photo__container {
+        flex-direction: column;
+    }
+    .content-imgtext-and-lists, .img-island-content {
+        width: 100%;
+    }
+    .content-imgtext-and-lists {
+        padding-bottom: 50px;
+    }
+    .not-include-section-island__container {
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .childs-section, .not-include-item-content {
+        width: 100%;
+    }
+    .not-include-item-content {
+        justify-content: center;
+        align-items: center;
+    }
+    .content-include-island-day__container ul {
+        width: 80%;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .container-img-popup img {
         width: 100%;
@@ -2626,6 +2654,9 @@ hr {
     }
     .swiper-container {
         width: 100%;
+    }
+    .text-botton-island h3 {
+        font-size: 71px;
     }
     
 }
@@ -3498,6 +3529,9 @@ hr {
         justify-content: end;
         margin: 0 -70px 0 0;
     }
+    .text-botton-island h3 {
+        font-size: 64px;
+    }
 
 }
 
@@ -3671,6 +3705,20 @@ hr {
         width: 100%;
         margin-left: 0;
     }
+    .content-text-port-taxes {
+        width: 95%;
+    }
+    .not-include-item-content__container span {
+        top: 27px;
+        left: -45px;
+        font-size: 50px;
+    }
+    .content-text-port-taxes {
+        height: 300px;
+    }
+    .content-title-not-include {
+        width: 197px;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 419px) {
@@ -3798,5 +3846,20 @@ hr {
     }
     .title-one {
         font-size: 20px;
+    }
+    .not-include-item-content__container span {
+        top: 15px;
+        left: -95px;
+    }
+    .confirm-booking {
+        height: auto;
+        margin-top: 0;
+        padding-bottom: 30px;
+    }
+    .CB-form__container {
+        margin-top: 0;
+    }
+    .CB-form {
+        margin-top: 0;
     }
 }
