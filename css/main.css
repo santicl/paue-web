@@ -3868,4 +3868,7 @@ hr {
     .content-imgtext__content span {
         margin-bottom: 0;
     }
+    .content-include-island-day__container ul li {
+        font-size: 15px;
+    }
 }
