@@ -3081,11 +3081,19 @@ hr {
     }
 }
 
+@media screen and (max-width: 620px) {
+    .content-lists-reserve ul {
+        justify-items: start;
+    }
+}
 
 @media screen and (max-width: 590px) {
 
     .content-imgtext__content span {
         margin-bottom: 0;
+    }
+    .content-lists-reserve ul {
+        justify-items: start;
     }
 
     .menu-header.menu-open {
