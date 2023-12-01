@@ -1705,8 +1705,8 @@ CONFIRM BOOKING
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 450px;
-    margin-top: -35px;
+    height: auto;
+    margin-top: 0;
 }
 
 .CB-form__container {
@@ -3472,8 +3472,7 @@ hr {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 129vh;
-        margin-top: 147px;
+        height: auto;
         position: relative;
     }
 
