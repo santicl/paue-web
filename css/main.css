@@ -1352,6 +1352,7 @@ LISTS INCLUDE SECCION
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 10px;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -3870,5 +3871,8 @@ hr {
     }
     .content-include-island-day__container ul li {
         font-size: 15px;
+    }
+    .content-include-island-day__container ul {
+        gap: 8px;
     }
 }
