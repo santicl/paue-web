@@ -3081,16 +3081,19 @@ hr {
     }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 690px) {
     .content-lists-reserve ul {
         justify-items: start;
     }
     .content-title-not-include {
-        width: 205px;
+        width: 230px;
     }
     .not-include-item-content__container span {
         top: 15px;
         left: -96px;
+    }
+    .text-botton-island h3 {
+        font-size: 60px;
     }
 }
 
