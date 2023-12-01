@@ -3865,4 +3865,7 @@ hr {
     .text-botton-island h3 {
         font-size: 48px;
     }
+    .content-imgtext__content span {
+        margin-bottom: -15px;
+    }
 }
