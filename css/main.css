@@ -1402,6 +1402,10 @@ NOT INCLUDE SECTION
     width: 50%;
 }
 
+.childs-section {
+    gap: 10px;
+}
+
 .childs-section__container {
     display: flex;
     justify-content: center;
