@@ -3790,4 +3790,13 @@ hr {
     .title-one {
         right: 33px;
     }
+    .title-four {
+        top: 113px;
+    }
+    .title-one h2 {
+        margin-bottom: 0px;
+    }
+    .title-one {
+        font-size: 20px;
+    }
 }
