@@ -2105,6 +2105,11 @@ summary {
     width: 100%;
     font-size: 24px;
     list-style-type: none;
+    transition: all ease-in-out .1s;
+}
+
+summary:hover {
+    background: #bb8939;
 }
 
 details {
@@ -3723,5 +3728,16 @@ hr {
 
     summary {
         font-size: 21px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .row img {
+        width: 100%;
     }
 }
