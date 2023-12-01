@@ -3884,5 +3884,8 @@ hr {
     .content-include-island-day__container ul {
         gap: 8px;
     }
+    .content-lists-reserve ul {
+        justify-items: baseline;
+    }
 
 }
