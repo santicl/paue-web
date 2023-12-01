@@ -3853,9 +3853,16 @@ hr {
         font-size: 20px;
     }
     .not-include-item-content__container span {
-        top: 15px;
-        left: -45px;
+        top: 39px;
+        left: -44px;
         font-size: 44px;
+    }
+    .content-text-port-taxes__container h4 {
+        font-size: 14px !important;
+        margin-bottom: 0;
+    }
+    .content-text-port-taxes__content ul li {
+        font-size: 12px;
     }
     .confirm-booking {
         height: auto;
@@ -3874,14 +3881,9 @@ hr {
     .content-imgtext__content span {
         margin-bottom: 0;
     }
-    .content-include-island-day__container ul li {
-        font-size: 15px;
-    }
+
     .content-include-island-day__container ul {
         gap: 8px;
     }
-    .not-include-item-content__container span {
-        left: -93px;
-        top: 16px;
-    }
+
 }
