@@ -3866,6 +3866,6 @@ hr {
         font-size: 48px;
     }
     .content-imgtext__content span {
-        margin-bottom: -15px;
+        margin-bottom: 0;
     }
 }
