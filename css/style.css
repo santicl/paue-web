@@ -960,3 +960,9 @@ NEW PAGE - COMIDAS Y BEBIDAS END
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .faces-texts-title__container h2, .faces-texts-title__container span {
+        font-size: 25px;
+    }
+}
