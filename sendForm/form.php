@@ -18,13 +18,7 @@ try {
 
     // Configuración de PHPMailer
     $mail->isSMTP();
-    $mail->Host       = 'paue.com.co';
-    $mail->SMTPAuth   = true;
-    $mail->Username   = 'reserve@paue.com.co';
-    $mail->Password   = 'MX5E)EzR~wM=';
-    $mail->SMTPSecure = 'ssl';
-    $mail->Port       = 465;
-
+ 
     $to = "caballerosuarezsantiago@gmail.com";
     $subject = "Nuevo mensaje desde PAUE.COM.CO";
 
