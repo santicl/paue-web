@@ -1,8 +1,10 @@
 const prevButton = document.getElementById('previous');
 const nextButton = document.getElementById('next');
 const items = document.querySelectorAll('.carousel-item');
+const typeBoatTitle = document.getElementById('title-boat');
+const priceBoat = document.getElementById('boat-price');
 
-let currentIndex = 1; // Índice de la imagen central (la segunda imagen) al inicio
+let currentIndex = 1;
 
 prevButton.addEventListener('click', () => {
   currentIndex = (currentIndex - 1 + items.length) % items.length;
@@ -17,15 +19,30 @@ nextButton.addEventListener('click', () => {
 function handleSlideTransition() {
   items.forEach(item => {
     item.classList.remove('current');
-    item.style.order = ''; // Restablece el orden para evitar problemas de visualización
+    item.style.order = '';
   });
 
   items[currentIndex].classList.add('current');
-  items[currentIndex].style.order = '1'; // Coloca la imagen central al final
+  items[currentIndex].style.order = '1';
+
+  if (items[currentIndex].title === 'Catamarán') {
+    typeBoatTitle.textContent = 'Catamarán';
+    priceBoat.textContent = 'Desde $ 6.000.000';
+  }
+
+  if (items[currentIndex].title === 'Bote de vela') {
+    typeBoatTitle.textContent = 'Bote de vela';
+    priceBoat.textContent = 'Desde $ 8.000.000';
+  }
+
+  if (items[currentIndex].title === 'Bote normal') {
+    typeBoatTitle.textContent = 'Lanchas rápidas';
+    priceBoat.textContent = 'Desde $ 1.300.000';
+  }
 
   const prevIndex = (currentIndex - 1 + items.length) % items.length;
   const nextIndex = (currentIndex + 1) % items.length;
 
-  items[prevIndex].style.order = '0'; // Coloca la imagen izquierda antes de la central
-  items[nextIndex].style.order = '2'; // Coloca la imagen derecha después de la central
+  items[prevIndex].style.order = '0';
+  items[nextIndex].style.order = '2';
 }

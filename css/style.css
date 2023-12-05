@@ -125,9 +125,6 @@ header nav div a img {
     transition: all ease-in-out .2s;
 }
 
-.brand-menu-header {
-    filter: invert(45%) sepia(20%) saturate(600%) hue-rotate(20deg);
-}
 
 header nav div {
     padding: 10px;

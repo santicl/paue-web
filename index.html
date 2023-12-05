@@ -14,6 +14,7 @@
     <meta property="og:image" content="https://paue.com.co/img/home/logo-gold-paue.png" itemprop="image">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/home/Pluma-Pue.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -393,13 +394,13 @@
 
                                 <div id="carrousel-boats" class="carrousel-three-boats">
                                     <div id="container-type-boats" class="carrousel-three-boats__container">
-                                        <div title="catamaran" class="carousel-item">
+                                        <div title="Catamarán" class="carousel-item">
                                             <img src="./img/home/Cat.png" alt="Catamaran">
                                         </div>
-                                        <div title="bote normal" class="carousel-item current">
+                                        <div title="Bote normal" class="carousel-item current">
                                             <img src="./img/home/Boat.png" alt="Bote Normal">
                                         </div>
-                                        <div title="bote de vela" class="carousel-item">
+                                        <div title="Bote de vela" class="carousel-item">
                                             <img src="./img/home/catamaran.png" alt="Bote Velas">
                                         </div>
                                     </div>
@@ -419,14 +420,34 @@
                             </div>
                             <div class="lancha-rapida">
                                 <div class="lancha-rapida__container">
-                                    <span>Lanchas rápidas</span>
-                                    <span>Desde $ 000.000</span>
+                                    <span id="title-boat">Lanchas rápidas</span>
+                                    <span id="boat-price">Desde $ 1.300.000</span>
                                 </div>
                             </div>
                         </div>
                         <button id="btn-rent-boat-booking" class="letters-lists-rent-a-boat-btn">
                             Reserve
                         </button>
+
+                        <div id="modal-rent-boat-back" class="modal-rent-boat-back">
+                            <div id="modal-rent-boat__content" class="modal-rent-boat__content">
+                                <div class="form-info-contact">
+                                    <h2>Ya casi terminas</h2>
+                                    <form method="post" id="form-rent">
+                                        <input id="email" placeholder="Email" type="email" name="email">
+                                        <input id="phone" placeholder="Celular" type="number" name="phone">
+                                        <button>Enviar</button>
+                                    </form>
+                                </div>
+                                <button id="close-modal-rent" class="close-modal-rent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                                      </svg>
+                                </button>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -538,7 +559,7 @@
                     <div class="links-socials">
                         <div class="links-socials__container">
 
-                            <a href="https://www.instagram.com/pauecartagena/" class="link-instagram">
+                            <a href="https://www.instagram.com/pauecartagena/" class="link-instagram" target="_blank">
                                 <div class="link-instagram__container">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-instagram" viewBox="0 0 16 16">
@@ -548,7 +569,7 @@
                                 </div>
                             </a>
 
-                            <a href="/" class="link-facebook">
+                            <a href="https://www.facebook.com/profile.php?id=100084213009385" class="link-facebook" target="_blank">
                                 <div class="link-facebook__container">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-facebook" viewBox="0 0 16 16">
@@ -558,12 +579,10 @@
                                 </div>
                             </a>
 
-                            <a href="/" class="link-twitter">
+                            <a href="https://www.tiktok.com/@pauecartagena?_t=8htTFlBsKxB&_r=1" class="link-twitter" target="_blank">
                                 <div class="link-twitter__container">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-twitter-x" viewBox="0 0 16 16">
-                                        <path
-                                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                                        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
                                     </svg>
                                 </div>
                             </a>

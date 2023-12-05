@@ -51,7 +51,6 @@ footer {
 
 .brand-footer {
     width: 120px;
-    filter: invert(45%) sepia(20%) saturate(600%) hue-rotate(20deg);
 }
 
 .brand-links-socials__container h3 {
